@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Hydrexium ",
+    "icon": {
+      "value": "CUSTOM:Hydrexiumblock"
+    },
+    "showSearch": false
+  }
+}

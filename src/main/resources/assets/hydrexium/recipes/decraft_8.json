@@ -1,0 +1,16 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:oxoniumblock"
+    }
+  },
+  "result": {
+    "item": "hydrexium:oxoniumingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hydrexium:blocks/fauconium",
+    "up": "hydrexium:blocks/fauconium",
+    "north": "hydrexium:blocks/fauconium",
+    "east": "hydrexium:blocks/fauconium",
+    "south": "hydrexium:blocks/fauconium",
+    "west": "hydrexium:blocks/fauconium",
+    "particle": "hydrexium:blocks/fauconium"
+  }
+}

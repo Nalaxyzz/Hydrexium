@@ -1,0 +1,42 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:oxoniumingot"
+    },
+    "1": {
+      "item": "hydrexium:oxoniumingot"
+    },
+    "2": {
+      "item": "hydrexium:oxoniumingot"
+    },
+    "3": {
+      "item": "hydrexium:oxoniumingot"
+    },
+    "4": {
+      "item": "hydrexium:oxoniumingot"
+    },
+    "5": {
+      "item": "hydrexium:oxoniumingot"
+    },
+    "6": {
+      "item": "hydrexium:oxoniumingot"
+    },
+    "7": {
+      "item": "hydrexium:oxoniumingot"
+    },
+    "8": {
+      "item": "hydrexium:oxoniumingot"
+    }
+  },
+  "result": {
+    "item": "hydrexium:oxoniumblock",
+    "count": 1
+  }
+}

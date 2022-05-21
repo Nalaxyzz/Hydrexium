@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hydrexium:blocks/gold_maker_table_bottom",
+    "up": "hydrexium:blocks/gold_maker_table_top",
+    "north": "hydrexium:blocks/gold_maker_table_front",
+    "east": "hydrexium:blocks/gold_maker_table_front",
+    "south": "hydrexium:blocks/gold_maker_table_front",
+    "west": "hydrexium:blocks/gold_maker_table_front",
+    "particle": "hydrexium:blocks/gold_maker_table_bottom"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "1": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "2": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "3": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "4": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "5": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "6": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "7": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "8": {
+      "item": "hydrexium:mercuryingot"
+    }
+  },
+  "result": {
+    "item": "hydrexium:mercuryblock",
+    "count": 1
+  }
+}

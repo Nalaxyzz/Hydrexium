@@ -1,0 +1,34 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "hammer_2",
+    "customModelName": "Normal",
+    "name": "Hammer infernium",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Hydrexiumtab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 6.5,
+    "attackSpeed": 1.0,
+    "enchantability": 4,
+    "damageVsEntity": 4.0,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Inferniumingot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "Hammer"
+    }
+  }
+}

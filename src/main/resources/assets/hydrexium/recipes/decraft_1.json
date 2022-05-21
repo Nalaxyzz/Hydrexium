@@ -1,0 +1,16 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:fauconiumblock"
+    }
+  },
+  "result": {
+    "item": "hydrexium:fauconiumingot",
+    "count": 9
+  }
+}

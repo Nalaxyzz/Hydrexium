@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hydrexium:blocks/mercuryblock",
+    "up": "hydrexium:blocks/mercuryblock",
+    "north": "hydrexium:blocks/mercuryblock",
+    "east": "hydrexium:blocks/mercuryblock",
+    "south": "hydrexium:blocks/mercuryblock",
+    "west": "hydrexium:blocks/mercuryblock",
+    "particle": "hydrexium:blocks/mercuryblock"
+  }
+}

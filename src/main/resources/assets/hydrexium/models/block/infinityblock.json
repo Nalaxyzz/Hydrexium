@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hydrexium:blocks/infinityblock",
+    "up": "hydrexium:blocks/infinityblock",
+    "north": "hydrexium:blocks/infinityblock",
+    "east": "hydrexium:blocks/infinityblock",
+    "south": "hydrexium:blocks/infinityblock",
+    "west": "hydrexium:blocks/infinityblock",
+    "particle": "hydrexium:blocks/infinityblock"
+  }
+}

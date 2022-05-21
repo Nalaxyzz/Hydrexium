@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hydrexium:blocks/slavicniumore",
+    "up": "hydrexium:blocks/slavicniumore",
+    "north": "hydrexium:blocks/slavicniumore",
+    "east": "hydrexium:blocks/slavicniumore",
+    "south": "hydrexium:blocks/slavicniumore",
+    "west": "hydrexium:blocks/slavicniumore",
+    "particle": "hydrexium:blocks/slavicniumore"
+  }
+}

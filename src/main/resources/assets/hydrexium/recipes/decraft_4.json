@@ -1,0 +1,16 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:infinityblock"
+    }
+  },
+  "result": {
+    "item": "hydrexium:infinityingot",
+    "count": 9
+  }
+}

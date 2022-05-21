@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hydrexium:blocks/voidium_block",
+    "up": "hydrexium:blocks/voidium_block",
+    "north": "hydrexium:blocks/voidium_block",
+    "east": "hydrexium:blocks/voidium_block",
+    "south": "hydrexium:blocks/voidium_block",
+    "west": "hydrexium:blocks/voidium_block",
+    "particle": "hydrexium:blocks/voidium_block"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:voidiumingot"
+    },
+    "1": {
+      "item": "hydrexium:voidiumingot"
+    },
+    "2": {
+      "item": "hydrexium:voidiumingot"
+    },
+    "3": {
+      "item": "hydrexium:voidiumingot"
+    },
+    "4": {
+      "item": "hydrexium:voidiumingot"
+    },
+    "5": {
+      "item": "hydrexium:voidiumingot"
+    },
+    "6": {
+      "item": "hydrexium:voidiumingot"
+    },
+    "7": {
+      "item": "hydrexium:voidiumingot"
+    },
+    "8": {
+      "item": "hydrexium:voidiumingot"
+    }
+  },
+  "result": {
+    "item": "hydrexium:voidiumblock",
+    "count": 1
+  }
+}

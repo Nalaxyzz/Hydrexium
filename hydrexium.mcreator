@@ -1,0 +1,872 @@
+{
+  "id_map": {
+    "ENTITY": 1
+  },
+  "mod_elements": [
+    {
+      "name": "Hydrexiumore",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrexiumore",
+      "path": "~/Minerais "
+    },
+    {
+      "name": "Compressor",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressor",
+      "path": "~/block"
+    },
+    {
+      "name": "Hydrexiumtab",
+      "type": "tab",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrexiumtab",
+      "path": "~/gui"
+    },
+    {
+      "name": "Fauconiumblock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fauconiumblock",
+      "path": "~/block"
+    },
+    {
+      "name": "Fauconiumore",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fauconiumore",
+      "path": "~/Minerais "
+    },
+    {
+      "name": "Voidiumore",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voidiumore",
+      "path": "~/Minerais "
+    },
+    {
+      "name": "Voidiumblock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voidiumblock",
+      "path": "~/block"
+    },
+    {
+      "name": "Fauconiumingot",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fauconiumingot",
+      "path": "~/item"
+    },
+    {
+      "name": "Voidiumingot",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "voidiumingot",
+      "path": "~/item"
+    },
+    {
+      "name": "Slavicniumore",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavicniumore",
+      "path": "~/Minerais "
+    },
+    {
+      "name": "Slavicniumblock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavicniumblock",
+      "path": "~/block"
+    },
+    {
+      "name": "Slavicniumingot",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavicniumingot",
+      "path": "~/item"
+    },
+    {
+      "name": "Furnace1",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furnace_1",
+      "path": "~/craft"
+    },
+    {
+      "name": "Furnace2",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furnace_2",
+      "path": "~/craft"
+    },
+    {
+      "name": "Furnace3",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furnace_3",
+      "path": "~/craft"
+    },
+    {
+      "name": "Hydrexiumingot",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrexiumingot",
+      "path": "~/item"
+    },
+    {
+      "name": "Furnace4",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furnace_4",
+      "path": "~/craft"
+    },
+    {
+      "name": "Inferniumore",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumore",
+      "path": "~/Minerais "
+    },
+    {
+      "name": "Infinityore",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infinityore",
+      "path": "~/Minerais "
+    },
+    {
+      "name": "Hammer",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Infinityingot",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infinityingot",
+      "path": "~/item"
+    },
+    {
+      "name": "Oxoniumingot",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxoniumingot",
+      "path": "~/item"
+    },
+    {
+      "name": "Infinityblock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infinityblock",
+      "path": "~/block"
+    },
+    {
+      "name": "Inferniumblock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumblock",
+      "path": "~/block"
+    },
+    {
+      "name": "Inferniumingot",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumingot",
+      "path": "~/item"
+    },
+    {
+      "name": "Furnace5",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furnace_5",
+      "path": "~/craft"
+    },
+    {
+      "name": "Oxoniumore",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxoniumore",
+      "path": "~/Minerais "
+    },
+    {
+      "name": "Furnace6",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furnace_6",
+      "path": "~/craft"
+    },
+    {
+      "name": "Mercuryore",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuryore",
+      "path": "~/Minerais "
+    },
+    {
+      "name": "Mercuryingot",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuryingot",
+      "path": "~/item"
+    },
+    {
+      "name": "Furnace7",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furnace_7",
+      "path": "~/craft"
+    },
+    {
+      "name": "Mercuryblock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuryblock",
+      "path": "~/block"
+    },
+    {
+      "name": "Hydrexiumblock",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrexiumblock",
+      "path": "~/block"
+    },
+    {
+      "name": "Hydrexiumore2",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrexiumore_2",
+      "path": "~/Minerais "
+    },
+    {
+      "name": "Oxoniumblock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oxoniumblock",
+      "path": "~/block"
+    },
+    {
+      "name": "Furnace8",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furnace_8",
+      "path": "~/craft"
+    },
+    {
+      "name": "Furnace9",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furnace_9",
+      "path": "~/craft"
+    },
+    {
+      "name": "Block1",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_1",
+      "path": "~/craft"
+    },
+    {
+      "name": "Block2",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_2",
+      "path": "~/craft"
+    },
+    {
+      "name": "Block3",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_3",
+      "path": "~/craft"
+    },
+    {
+      "name": "Block4",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_4",
+      "path": "~/craft"
+    },
+    {
+      "name": "Block5",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_5",
+      "path": "~/craft"
+    },
+    {
+      "name": "Block6",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_6",
+      "path": "~/craft"
+    },
+    {
+      "name": "Block8",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_8",
+      "path": "~/craft"
+    },
+    {
+      "name": "Block9",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_9",
+      "path": "~/craft"
+    },
+    {
+      "name": "Decraft1",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_1",
+      "path": "~/craft"
+    },
+    {
+      "name": "Decraft2",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_2",
+      "path": "~/craft"
+    },
+    {
+      "name": "Decraft3",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_3",
+      "path": "~/craft"
+    },
+    {
+      "name": "Decraft4",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_4",
+      "path": "~/craft"
+    },
+    {
+      "name": "Decraft5",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_5",
+      "path": "~/craft"
+    },
+    {
+      "name": "Decraft6",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_6",
+      "path": "~/craft"
+    },
+    {
+      "name": "Decraft7",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_7",
+      "path": "~/craft"
+    },
+    {
+      "name": "Decraft8",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decraft_8",
+      "path": "~/craft"
+    },
+    {
+      "name": "Hydrexiumarmoradvanced",
+      "type": "armor",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrexiumarmoradvanced",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "Slavicnium",
+      "type": "armor",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavicnium",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "Hydrexium",
+      "type": "armor",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrexium",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "Hammerinfinity",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammerinfinity",
+      "path": "~/item"
+    },
+    {
+      "name": "Hammerinfernium",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammerinfernium",
+      "path": "~/item"
+    },
+    {
+      "name": "Hammerhydrexium",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammerhydrexium",
+      "path": "~/item"
+    },
+    {
+      "name": "HydrexiumarmoradvancedEvenementDeTickDuCasque",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrexiumarmoradvanced_evenement_de_tick_du_casque",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HydrexiumarmoradvancedEvenementDeTickDuPlastron",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrexiumarmoradvanced_evenement_de_tick_du_plastron",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HydrexiumarmoradvancedEvenementDeTickDesJambieres",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrexiumarmoradvanced_evenement_de_tick_des_jambieres",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HydrexiumarmoradvancedEvenementDeTickDesBottes",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrexiumarmoradvanced_evenement_de_tick_des_bottes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hydrexiumplaque",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrexiumplaque",
+      "path": "~/item"
+    },
+    {
+      "name": "GrappinQuandUneBalleToucheUnBloc",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grappin_quand_une_balle_touche_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Grapplehead",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grapplehead",
+      "path": "~/item"
+    },
+    {
+      "name": "Grappin",
+      "type": "gun",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      },
+      "registry_name": "grappin",
+      "path": "~/Mechanic"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.hammerinfinity.name": "Hammer infinity",
+      "tile.compressor.name": "Compressor",
+      "item.voidiumingot.name": "Voidium ingot",
+      "tile.inferniumore.name": "Infernium ore",
+      "tile.voidiumblock.name": "Voidium block",
+      "item.inferniumingot.name": "Infernium ingot",
+      "tile.oxoniumblock.name": "Oxonium block",
+      "item.hydrexiumarmoradvancedboots.name": "Bottes en Hydrexium avencé",
+      "item.hammerhydrexium.name": "Hammer hydrexium",
+      "item.hammerinfernium.name": "Hammer infernium",
+      "item.hydrexiumlegs.name": "Jambières de Hydrexium",
+      "item.hydrexiumplaque.name": "Hydrexium plaque",
+      "item.hydrexiumarmoradvancedhelmet.name": "Casque en Hydrexium avencé",
+      "tile.hydrexiumblock.name": "Hydrexium block",
+      "item.slavicniumbody.name": "Plastron de Slavicnium",
+      "tile.inferniumblock.name": "Infernium block",
+      "item.hydrexiumbody.name": "Plastron de Hydrexium",
+      "subtitles.urssisback": "",
+      "tile.slavicniumblock.name": "Slavicniumblock",
+      "item.oxoniumingot.name": "Oxonium ingot",
+      "item.slavicniumingot.name": "Slavicnium ingot",
+      "item.mercuryingot.name": "Mercury ingot",
+      "item.grappin.name": "grapple",
+      "tile.fauconiumore.name": "Fauconium ore",
+      "item.hydrexiumingot.name": "Hydrexium ingot",
+      "tile.infinityore.name": "Infinity ore",
+      "item.slavicniumboots.name": "Bottes en Slavicnium",
+      "item.slavicniumhelmet.name": "Casque en Slavicnium",
+      "tile.hydrexiumore.name": "Hydrexium ore",
+      "tile.voidiumore.name": "Voidium ore",
+      "tile.hydrexiumore_2.name": "Hydrexium ore ",
+      "tile.infinityblock.name": "Infinity block",
+      "tile.oxoniumore.name": "Oxonium ore",
+      "tile.mercuryblock.name": "Mercury block",
+      "item.hydrexiumhelmet.name": "Casque en Hydrexium",
+      "tile.mercuryore.name": "Mercury ore",
+      "itemGroup.tabhydrexiumtab": "Hydrexium ",
+      "tile.slavicniumore.name": "Slavicnium ore",
+      "item.hydrexiumboots.name": "Bottes en Hydrexium",
+      "tile.fauconiumblock.name": "Fauconium block",
+      "item.hydrexiumarmoradvancedlegs.name": "Jambières de Hydrexium avencé",
+      "item.slavicniumlegs.name": "Jambières de Slavicnium",
+      "item.hydrexiumarmoradvancedbody.name": "Plastron de Hydrexium avencé",
+      "item.infinityingot.name": "Infinity ingot",
+      "item.grapplehead.name": "Grapple head",
+      "item.fauconiumingot.name": "Fauconium ingot"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Minerais ",
+        "children": []
+      },
+      {
+        "name": "block",
+        "children": []
+      },
+      {
+        "name": "item",
+        "children": []
+      },
+      {
+        "name": "procedure",
+        "children": []
+      },
+      {
+        "name": "craft",
+        "children": []
+      },
+      {
+        "name": "gui",
+        "children": []
+      },
+      {
+        "name": "Mechanic",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "hydrexium",
+    "modName": "Hydrexium",
+    "version": "1.0.6",
+    "author": "Enzo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.hydrexium",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

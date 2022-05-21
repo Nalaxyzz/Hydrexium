@@ -1,0 +1,66 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "corrupt_upgraded_netherite_helmet",
+    "enableBody": true,
+    "textureBody": "corrupt_upgraded_netherite_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "corrupt_upgraded_netherite_leggings",
+    "enableBoots": true,
+    "textureBoots": "corrupt_upgraded_netherite_boots",
+    "onHelmetTick": {
+      "name": "HydrexiumarmoradvancedEvenementDeTickDuCasque"
+    },
+    "onBodyTick": {
+      "name": "HydrexiumarmoradvancedEvenementDeTickDuPlastron"
+    },
+    "onLeggingsTick": {
+      "name": "HydrexiumarmoradvancedEvenementDeTickDesJambieres"
+    },
+    "onBootsTick": {
+      "name": "HydrexiumarmoradvancedEvenementDeTickDesBottes"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Hydrexiumtab"
+    },
+    "armorTextureFile": "corrupt_upgraded_netherite___",
+    "helmetName": "Casque en Hydrexium avencé",
+    "bodyName": "Plastron de Hydrexium avencé",
+    "leggingsName": "Jambières de Hydrexium avencé",
+    "bootsName": "Bottes en Hydrexium avencé",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 40,
+    "damageValueHelmet": 7,
+    "damageValueBody": 10,
+    "damageValueLeggings": 10,
+    "damageValueBoots": 7,
+    "enchantability": 15,
+    "toughness": 4.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

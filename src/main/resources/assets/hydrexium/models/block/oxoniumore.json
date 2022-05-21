@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hydrexium:blocks/oxoniumore",
+    "up": "hydrexium:blocks/oxoniumore",
+    "north": "hydrexium:blocks/oxoniumore",
+    "east": "hydrexium:blocks/oxoniumore",
+    "south": "hydrexium:blocks/oxoniumore",
+    "west": "hydrexium:blocks/oxoniumore",
+    "particle": "hydrexium:blocks/oxoniumore"
+  }
+}
