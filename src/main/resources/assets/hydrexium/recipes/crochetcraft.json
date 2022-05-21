@@ -1,0 +1,26 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "hydrexium:voidiumingot"
+    },
+    "2": {
+      "item": "hydrexium:voidiumingot"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "hydrexium:grapplehead",
+    "count": 1
+  }
+}

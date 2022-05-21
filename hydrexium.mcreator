@@ -763,6 +763,26 @@
       },
       "registry_name": "grappin",
       "path": "~/Mechanic"
+    },
+    {
+      "name": "Grapincraft",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grapincraft",
+      "path": "~/craft"
+    },
+    {
+      "name": "Crochetcraft",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crochetcraft",
+      "path": "~/craft"
     }
   ],
   "variable_elements": [],
@@ -853,7 +873,7 @@
   "workspaceSettings": {
     "modid": "hydrexium",
     "modName": "Hydrexium",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "author": "Nalaxyzz",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

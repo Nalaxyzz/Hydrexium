@@ -1,0 +1,24 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "hydrexium:grapplehead"
+    },
+    "4": {
+      "item": "minecraft:string"
+    },
+    "6": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "hydrexium:grapplehead",
+    "count": 1
+  }
+}

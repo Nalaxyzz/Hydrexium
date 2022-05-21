@@ -69,7 +69,7 @@ public class ItemGrappin extends ElementsHydrexiumMod.ModElement {
 	public static class RangedItem extends Item {
 		public RangedItem() {
 			super();
-			setMaxDamage(10);
+			setMaxDamage(15);
 			setFull3D();
 			setUnlocalizedName("grappin");
 			setRegistryName("grappin");
