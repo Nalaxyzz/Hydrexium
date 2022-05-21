@@ -763,6 +763,16 @@
       },
       "registry_name": "grappin",
       "path": "~/Mechanic"
+    },
+    {
+      "name": "Newd",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "newd",
+      "path": "~/Mechanic"
     }
   ],
   "variable_elements": [],
@@ -814,7 +824,8 @@
       "item.hydrexiumarmoradvancedbody.name": "Plastron de Hydrexium avencé",
       "item.infinityingot.name": "Infinity ingot",
       "item.grapplehead.name": "Grapple head",
-      "item.fauconiumingot.name": "Fauconium ingot"
+      "item.fauconiumingot.name": "Fauconium ingot",
+      "item.newd.name": "Newd"
     }
   },
   "foldersRoot": {
