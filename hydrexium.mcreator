@@ -853,8 +853,8 @@
   "workspaceSettings": {
     "modid": "hydrexium",
     "modName": "Hydrexium",
-    "version": "1.0.9",
-    "author": "Enzo, MCreator",
+    "version": "1.0.10",
+    "author": "Nalaxyzz",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,

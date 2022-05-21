@@ -87,7 +87,7 @@ public class ItemGrappin extends ElementsHydrexiumMod.ModElement {
 				entityarrow.setSilent(true);
 				entityarrow.setIsCritical(false);
 				entityarrow.setDamage(0);
-				entityarrow.setKnockbackStrength(10);
+				entityarrow.setKnockbackStrength(3);
 				itemstack.damageItem(1, entity);
 				int x = (int) entity.posX;
 				int y = (int) entity.posY;
