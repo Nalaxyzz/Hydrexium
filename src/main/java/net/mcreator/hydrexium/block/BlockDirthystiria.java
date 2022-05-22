@@ -38,7 +38,7 @@ public class BlockDirthystiria extends ElementsHydrexiumMod.ModElement {
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
-			super(Material.ROCK);
+			super(Material.GROUND);
 			setUnlocalizedName("dirthystiria");
 			setSoundType(SoundType.GROUND);
 			setHardness(1F);
