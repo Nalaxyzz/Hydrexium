@@ -38,9 +38,9 @@ public class BlockCompressor extends ElementsHydrexiumMod.ModElement {
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
-			super(Material.IRON);
+			super(Material.ANVIL);
 			setUnlocalizedName("compressor");
-			setSoundType(SoundType.METAL);
+			setSoundType(SoundType.ANVIL);
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);
