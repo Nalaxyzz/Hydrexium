@@ -799,6 +799,16 @@
         "ec": true
       },
       "path": "~/item"
+    },
+    {
+      "name": "Dirthystiria",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirthystiria",
+      "path": "~/block"
     }
   ],
   "variable_elements": [],
@@ -821,8 +831,8 @@
       "tile.hydrexiumore.name": "Hydrexium ore",
       "tile.voidiumore.name": "Voidium ore",
       "tile.hydrexiumore_2.name": "Hydrexium ore ",
-      "tile.mercuryblock.name": "Mercury block",
       "item.hydrexiumhelmet.name": "Casque en Hydrexium",
+      "tile.mercuryblock.name": "Mercury block",
       "tile.mercuryore.name": "Mercury ore",
       "item.hydrexiumboots.name": "Bottes en Hydrexium",
       "tile.fauconiumblock.name": "Fauconium block",
@@ -838,6 +848,7 @@
       "item.hydrexiumlegs.name": "Jambières de Hydrexium",
       "item.hydrexiumarmoradvancedhelmet.name": "Casque en Hydrexium avencé",
       "tile.hydrexiumblock.name": "Hydrexium block",
+      "tile.dirthystiria.name": "Dirthystiria",
       "tile.inferniumblock.name": "Infernium block",
       "item.hydrexiumbody.name": "Plastron de Hydrexium",
       "tile.slavicniumblock.name": "Slavicniumblock",
@@ -893,7 +904,7 @@
   "workspaceSettings": {
     "modid": "hydrexium",
     "modName": "Hydrexium",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "author": "Nalaxyzz",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

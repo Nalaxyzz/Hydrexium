@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "hydrexium:blocks/dirt",
+    "up": "hydrexium:blocks/grass_top",
+    "north": "hydrexium:blocks/grass_side",
+    "east": "hydrexium:blocks/grass_side",
+    "south": "hydrexium:blocks/grass_side",
+    "west": "hydrexium:blocks/grass_side",
+    "particle": "hydrexium:blocks/dirt"
+  }
+}
