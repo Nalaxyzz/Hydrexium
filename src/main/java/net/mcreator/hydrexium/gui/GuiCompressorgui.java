@@ -35,10 +35,10 @@ import java.io.IOException;
 
 @ElementsHydrexiumMod.ModElement.Tag
 public class GuiCompressorgui extends ElementsHydrexiumMod.ModElement {
-	public static int GUIID = 1;
+	public static int GUIID = 2;
 	public static HashMap guistate = new HashMap();
 	public GuiCompressorgui(ElementsHydrexiumMod instance) {
-		super(instance, 78);
+		super(instance, 83);
 	}
 
 	@Override
@@ -58,37 +58,41 @@ public class GuiCompressorgui extends ElementsHydrexiumMod.ModElement {
 			this.x = x;
 			this.y = y;
 			this.z = z;
-			this.internal = new InventoryBasic("", true, 11);
+			this.internal = new InventoryBasic("", true, 10);
 			TileEntity ent = world.getTileEntity(new BlockPos(x, y, z));
 			if (ent instanceof IInventory)
 				this.internal = (IInventory) ent;
-			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 39, 31) {
+			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 25, 17) {
 			}));
-			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 39, 49) {
+			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 43, 17) {
 			}));
-			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 39, 67) {
+			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 61, 17) {
 			}));
-			this.customSlots.put(4, this.addSlotToContainer(new Slot(internal, 4, 57, 31) {
+			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 25, 35) {
 			}));
-			this.customSlots.put(5, this.addSlotToContainer(new Slot(internal, 5, 57, 49) {
+			this.customSlots.put(4, this.addSlotToContainer(new Slot(internal, 4, 43, 35) {
 			}));
-			this.customSlots.put(6, this.addSlotToContainer(new Slot(internal, 6, 57, 67) {
+			this.customSlots.put(5, this.addSlotToContainer(new Slot(internal, 5, 61, 35) {
 			}));
-			this.customSlots.put(7, this.addSlotToContainer(new Slot(internal, 7, 75, 31) {
+			this.customSlots.put(6, this.addSlotToContainer(new Slot(internal, 6, 25, 53) {
 			}));
-			this.customSlots.put(8, this.addSlotToContainer(new Slot(internal, 8, 75, 49) {
+			this.customSlots.put(7, this.addSlotToContainer(new Slot(internal, 7, 43, 53) {
 			}));
-			this.customSlots.put(9, this.addSlotToContainer(new Slot(internal, 9, 75, 67) {
+			this.customSlots.put(8, this.addSlotToContainer(new Slot(internal, 8, 61, 53) {
 			}));
-			this.customSlots.put(10, this.addSlotToContainer(new Slot(internal, 10, 165, 40) {
+			this.customSlots.put(9, this.addSlotToContainer(new Slot(internal, 9, 106, 35) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
 			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 32 + 8 + sj * 18, 23 + 84 + si * 18));
+					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlotToContainer(new Slot(player.inventory, si, 32 + 8 + si * 18, 23 + 142));
+				this.addSlotToContainer(new Slot(player.inventory, si, 0 + 8 + si * 18, 0 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -242,8 +246,8 @@ public class GuiCompressorgui extends ElementsHydrexiumMod.ModElement {
 			this.y = y;
 			this.z = z;
 			this.entity = entity;
-			this.xSize = 240;
-			this.ySize = 213;
+			this.xSize = 176;
+			this.ySize = 166;
 		}
 		private static final ResourceLocation texture = new ResourceLocation("hydrexium:textures/compressorgui.png");
 		@Override
@@ -291,11 +295,10 @@ public class GuiCompressorgui extends ElementsHydrexiumMod.ModElement {
 		@Override
 		public void initGui() {
 			super.initGui();
-			this.guiLeft = (this.width - 240) / 2;
-			this.guiTop = (this.height - 213) / 2;
+			this.guiLeft = (this.width - 176) / 2;
+			this.guiTop = (this.height - 166) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();
-			this.buttonList.add(new GuiButton(0, this.guiLeft + 137, this.guiTop + 75, 75, 20, "compresser"));
 		}
 
 		@Override

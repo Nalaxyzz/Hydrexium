@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "hydrexium:blocks/hystiriawood_log_side",
-    "particle": "hydrexium:blocks/hystiriawood_log_side"
-  }
-}

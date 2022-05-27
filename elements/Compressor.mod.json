@@ -2,12 +2,12 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "gold_maker_table_bottom",
-    "textureTop": "gold_maker_table_top",
-    "textureLeft": "gold_maker_table_front",
-    "textureFront": "gold_maker_table_front",
-    "textureRight": "gold_maker_table_front",
-    "textureBack": "gold_maker_table_front",
+    "texture": "compressor_bas",
+    "textureTop": "compressor_haut",
+    "textureLeft": "compressor_cote",
+    "textureFront": "compressor_cote_2",
+    "textureRight": "compressor_cote",
+    "textureBack": "compressor_cote_2",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -54,7 +54,7 @@
     "material": {
       "value": "ANVIL"
     },
-    "tickRate": 10,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -84,10 +84,10 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "hasInventory": true,
+    "guiBoundTo": "Compressorgui",
+    "openGUIOnRightClick": true,
+    "inventorySize": 10,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -101,6 +101,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "Compressorcraft"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

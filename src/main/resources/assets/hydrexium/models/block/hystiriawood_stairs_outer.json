@@ -1,8 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "hydrexium:blocks/hystiriawood_planks",
-    "top": "hydrexium:blocks/hystiriawood_planks",
-    "side": "hydrexium:blocks/hystiriawood_planks"
-  }
-}
