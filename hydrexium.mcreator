@@ -852,6 +852,16 @@
         ]
       },
       "path": "~/procedure"
+    },
+    {
+      "name": "CraftCompressor",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craft_compressor",
+      "path": "~/craft"
     }
   ],
   "variable_elements": [],
@@ -874,8 +884,8 @@
       "tile.hydrexiumore.name": "Hydrexium ore",
       "tile.voidiumore.name": "Voidium ore",
       "tile.hydrexiumore_2.name": "Hydrexium ore ",
-      "item.hydrexiumhelmet.name": "Casque en Hydrexium",
       "tile.mercuryblock.name": "Mercury block",
+      "item.hydrexiumhelmet.name": "Casque en Hydrexium",
       "tile.mercuryore.name": "Mercury ore",
       "item.hydrexiumboots.name": "Bottes en Hydrexium",
       "tile.fauconiumblock.name": "Fauconium block",
@@ -947,7 +957,7 @@
   "workspaceSettings": {
     "modid": "hydrexium",
     "modName": "Hydrexium",
-    "version": "[Préalpha 2] {1.1.3.1}",
+    "version": "Version 1.1.4",
     "author": "Nalaxyzz",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

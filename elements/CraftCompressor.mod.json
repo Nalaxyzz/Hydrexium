@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Voidiumingot"
+      },
+      {
+        "value": "CUSTOM:Hydrexiumingot"
+      },
+      {
+        "value": "CUSTOM:Voidiumingot"
+      },
+      {
+        "value": "CUSTOM:Voidiumingot"
+      },
+      {
+        "value": "CUSTOM:Inferniumingot"
+      },
+      {
+        "value": "CUSTOM:Voidiumingot"
+      },
+      {
+        "value": "CUSTOM:Voidiumingot"
+      },
+      {
+        "value": "CUSTOM:Inferniumingot"
+      },
+      {
+        "value": "CUSTOM:Voidiumingot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Compressor"
+    },
+    "name": "craft_compressor",
+    "namespace": "mod"
+  }
+}
