@@ -49,7 +49,7 @@ public class BlockCompressor extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:compressor")
 	public static final Block block = null;
 	public BlockCompressor(ElementsHydrexiumMod instance) {
-		super(instance, 82);
+		super(instance, 44);
 	}
 
 	@Override

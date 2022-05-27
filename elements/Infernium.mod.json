@@ -3,21 +3,21 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "5",
+    "textureHelmet": "infernium_casque",
     "enableBody": true,
-    "textureBody": "4",
+    "textureBody": "infernium_torse",
     "enableLeggings": true,
-    "textureLeggings": "9",
+    "textureLeggings": "infernium_jambiere",
     "enableBoots": true,
-    "textureBoots": "q",
+    "textureBoots": "infernium_botte",
     "creativeTab": {
       "value": "CUSTOM:Hydrexiumtab"
     },
-    "armorTextureFile": "slavicnium____",
-    "helmetName": "Casque en Slavicnium",
-    "bodyName": "Plastron en Slavicnium",
-    "leggingsName": "Jambières en Slavicnium",
-    "bootsName": "Bottes en Slavicnium",
+    "armorTextureFile": "inferniun_.png",
+    "helmetName": "Casque en Infernium",
+    "bodyName": "Plastron de Infernium",
+    "leggingsName": "Jambières de Infernium",
+    "bootsName": "Bottes en Infernium",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -38,12 +38,12 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 16,
-    "damageValueHelmet": 3,
+    "maxDamage": 25,
+    "damageValueHelmet": 4,
     "damageValueBody": 7,
     "damageValueLeggings": 6,
-    "damageValueBoots": 3,
-    "enchantability": 9,
+    "damageValueBoots": 4,
+    "enchantability": 11,
     "toughness": 0.0,
     "knockbackResistance": 0.0,
     "equipSound": {
@@ -51,7 +51,7 @@
     },
     "repairItems": [
       {
-        "value": "CUSTOM:Slavicniumingot"
+        "value": "CUSTOM:Inferniumingot"
       }
     ]
   }

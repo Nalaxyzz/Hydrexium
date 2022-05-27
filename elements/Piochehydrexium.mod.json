@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "i",
+    "customModelName": "Normal",
+    "name": "Piochehydrexium",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Hydrexiumtab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 6.5,
+    "attackSpeed": 1.0,
+    "enchantability": 7,
+    "damageVsEntity": 4.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Hydrexiumplaque"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

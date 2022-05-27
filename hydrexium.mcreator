@@ -17,7 +17,7 @@
     {
       "name": "Hydrexiumtab",
       "type": "tab",
-      "sortid": 36,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -117,7 +117,7 @@
     {
       "name": "Furnace1",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -127,7 +127,7 @@
     {
       "name": "Furnace2",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -137,7 +137,7 @@
     {
       "name": "Furnace3",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -157,7 +157,7 @@
     {
       "name": "Furnace4",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -187,7 +187,7 @@
     {
       "name": "Hammer",
       "type": "procedure",
-      "sortid": 41,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -271,7 +271,7 @@
     {
       "name": "Furnace5",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -291,7 +291,7 @@
     {
       "name": "Furnace6",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -321,7 +321,7 @@
     {
       "name": "Furnace7",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -371,7 +371,7 @@
     {
       "name": "Furnace8",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -381,7 +381,7 @@
     {
       "name": "Furnace9",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -391,7 +391,7 @@
     {
       "name": "Block1",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -401,7 +401,7 @@
     {
       "name": "Block2",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -411,7 +411,7 @@
     {
       "name": "Block3",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -421,7 +421,7 @@
     {
       "name": "Block4",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -431,7 +431,7 @@
     {
       "name": "Block5",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -441,7 +441,7 @@
     {
       "name": "Block6",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -451,7 +451,7 @@
     {
       "name": "Block8",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -461,7 +461,7 @@
     {
       "name": "Block9",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -471,7 +471,7 @@
     {
       "name": "Decraft1",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -481,7 +481,7 @@
     {
       "name": "Decraft2",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -491,7 +491,7 @@
     {
       "name": "Decraft3",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -501,7 +501,7 @@
     {
       "name": "Decraft4",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -511,7 +511,7 @@
     {
       "name": "Decraft5",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -521,7 +521,7 @@
     {
       "name": "Decraft6",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -531,7 +531,7 @@
     {
       "name": "Decraft7",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -541,7 +541,7 @@
     {
       "name": "Decraft8",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -599,7 +599,7 @@
     {
       "name": "Hammerinfinity",
       "type": "tool",
-      "sortid": 30,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -609,7 +609,7 @@
     {
       "name": "Hammerinfernium",
       "type": "tool",
-      "sortid": 31,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -619,7 +619,7 @@
     {
       "name": "Hammerhydrexium",
       "type": "tool",
-      "sortid": 32,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -629,7 +629,7 @@
     {
       "name": "HydrexiumarmoradvancedEvenementDeTickDuCasque",
       "type": "procedure",
-      "sortid": 63,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -646,7 +646,7 @@
     {
       "name": "HydrexiumarmoradvancedEvenementDeTickDuPlastron",
       "type": "procedure",
-      "sortid": 64,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -663,7 +663,7 @@
     {
       "name": "HydrexiumarmoradvancedEvenementDeTickDesJambieres",
       "type": "procedure",
-      "sortid": 65,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -680,7 +680,7 @@
     {
       "name": "HydrexiumarmoradvancedEvenementDeTickDesBottes",
       "type": "procedure",
-      "sortid": 66,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -697,7 +697,7 @@
     {
       "name": "Hydrexiumplaque",
       "type": "item",
-      "sortid": 33,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -707,7 +707,7 @@
     {
       "name": "GrappinQuandUneBalleToucheUnBloc",
       "type": "procedure",
-      "sortid": 67,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -736,7 +736,7 @@
     {
       "name": "Grapplehead",
       "type": "item",
-      "sortid": 35,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -746,7 +746,7 @@
     {
       "name": "Grappin",
       "type": "gun",
-      "sortid": 34,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -758,7 +758,7 @@
     {
       "name": "Grapincraft",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -768,7 +768,7 @@
     {
       "name": "Crochetcraft",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -778,7 +778,7 @@
     {
       "name": "MercuryArmor",
       "type": "armor",
-      "sortid": 70,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -794,7 +794,7 @@
     {
       "name": "Dirthystiria",
       "type": "block",
-      "sortid": 71,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -804,7 +804,7 @@
     {
       "name": "Compressor",
       "type": "block",
-      "sortid": 82,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -814,7 +814,7 @@
     {
       "name": "Compressorgui",
       "type": "gui",
-      "sortid": 83,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -826,7 +826,7 @@
     {
       "name": "Compressorcraft",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -856,12 +856,98 @@
     {
       "name": "CraftCompressor",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "craft_compressor",
       "path": "~/craft"
+    },
+    {
+      "name": "Infernium",
+      "type": "armor",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infernium",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "Epeeslavicnium",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epeeslavicnium",
+      "path": "~/item"
+    },
+    {
+      "name": "Piocheslavicnium",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piocheslavicnium",
+      "path": "~/item"
+    },
+    {
+      "name": "Pelleslavicnium",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pelleslavicnium",
+      "path": "~/item"
+    },
+    {
+      "name": "Hacheslavicnium",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hacheslavicnium",
+      "path": "~/item"
+    },
+    {
+      "name": "Hoeslavicnium",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hoeslavicnium",
+      "path": "~/item"
+    },
+    {
+      "name": "Epeehydrexium",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "epeehydrexium",
+      "path": "~/item"
+    },
+    {
+      "name": "Piochehydrexium",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piochehydrexium",
+      "path": "~/item"
     }
   ],
   "variable_elements": [],
@@ -871,14 +957,18 @@
       "tile.compressor.name": "Compressor",
       "tile.inferniumore.name": "Infernium ore",
       "tile.voidiumblock.name": "Voidium block",
+      "item.hoeslavicnium.name": "Hoe en slavicnium",
       "item.hammerhydrexium.name": "Hammer hydrexium",
       "item.hammerinfernium.name": "Hammer infernium",
       "item.hydrexiumplaque.name": "Hydrexium plaque",
-      "item.slavicniumbody.name": "Plastron de Slavicnium",
+      "item.slavicniumbody.name": "Plastron en Slavicnium",
+      "item.pelleslavicnium.name": "Pelle en slavicnium",
       "subtitles.urssisback": "",
       "item.oxoniumingot.name": "Oxonium ingot",
       "item.slavicniumingot.name": "Slavicnium ingot",
       "item.mercury_armorhelmet.name": "Mercury Helmet",
+      "item.epeeslavicnium.name": "Epee en slavicnium",
+      "item.epeehydrexium.name": "Epee en hydrexium",
       "tile.fauconiumore.name": "Fauconium ore",
       "tile.infinityore.name": "Infinity ore",
       "tile.hydrexiumore.name": "Hydrexium ore",
@@ -889,8 +979,10 @@
       "tile.mercuryore.name": "Mercury ore",
       "item.hydrexiumboots.name": "Bottes en Hydrexium",
       "tile.fauconiumblock.name": "Fauconium block",
-      "item.hydrexiumarmoradvancedbody.name": "Plastron de Hydrexium avencé",
+      "item.hydrexiumarmoradvancedbody.name": "Plastron en Hydrexium avencé",
+      "item.piochehydrexium.name": "Piochehydrexium",
       "item.infinityingot.name": "Infinity ingot",
+      "item.inferniumboots.name": "Bottes en Infernium",
       "item.mercury_armorboots.name": "Mercury Boots",
       "item.mercury_armorlegs.name": "Mercury Leggings",
       "item.hammerinfinity.name": "Hammer infinity",
@@ -898,12 +990,13 @@
       "item.inferniumingot.name": "Infernium ingot",
       "tile.oxoniumblock.name": "Oxonium block",
       "item.hydrexiumarmoradvancedboots.name": "Bottes en Hydrexium avencé",
-      "item.hydrexiumlegs.name": "Jambières de Hydrexium",
+      "item.hydrexiumlegs.name": "Jambières en Hydrexium",
       "item.hydrexiumarmoradvancedhelmet.name": "Casque en Hydrexium avencé",
       "tile.hydrexiumblock.name": "Hydrexium block",
       "tile.dirthystiria.name": "Dirt hystiria",
+      "item.inferniumbody.name": "Plastron de Infernium",
       "tile.inferniumblock.name": "Infernium block",
-      "item.hydrexiumbody.name": "Plastron de Hydrexium",
+      "item.hydrexiumbody.name": "Plastron en Hydrexium",
       "tile.slavicniumblock.name": "Slavicniumblock",
       "item.mercuryingot.name": "Mercury ingot",
       "item.grappin.name": "grapple",
@@ -912,13 +1005,17 @@
       "item.slavicniumhelmet.name": "Casque en Slavicnium",
       "tile.infinityblock.name": "Infinity block",
       "tile.oxoniumore.name": "Oxonium ore",
+      "item.hacheslavicnium.name": "Hache slavicnium",
       "itemGroup.tabhydrexiumtab": "Hydrexium ",
       "tile.slavicniumore.name": "Slavicnium ore",
-      "item.hydrexiumarmoradvancedlegs.name": "Jambières de Hydrexium avencé",
-      "item.slavicniumlegs.name": "Jambières de Slavicnium",
+      "item.hydrexiumarmoradvancedlegs.name": "Jambières en Hydrexium avencé",
+      "item.inferniumlegs.name": "Jambières de Infernium",
+      "item.slavicniumlegs.name": "Jambières en Slavicnium",
       "item.grapplehead.name": "Grapple head",
       "item.mercury_armorbody.name": "Mercury Chestplate",
-      "item.fauconiumingot.name": "Fauconium ingot"
+      "item.fauconiumingot.name": "Fauconium ingot",
+      "item.inferniumhelmet.name": "Casque en Infernium",
+      "item.piocheslavicnium.name": "Pioche en slavicnium"
     }
   },
   "foldersRoot": {
@@ -957,7 +1054,7 @@
   "workspaceSettings": {
     "modid": "hydrexium",
     "modName": "Hydrexium",
-    "version": "Version 1.1.4",
+    "version": "Version 1.1.8",
     "author": "Nalaxyzz",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

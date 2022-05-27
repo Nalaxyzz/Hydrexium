@@ -22,7 +22,7 @@ import java.util.Map;
 @ElementsHydrexiumMod.ModElement.Tag
 public class ProcedureCompressorcraft extends ElementsHydrexiumMod.ModElement {
 	public ProcedureCompressorcraft(ElementsHydrexiumMod instance) {
-		super(instance, 84);
+		super(instance, 81);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

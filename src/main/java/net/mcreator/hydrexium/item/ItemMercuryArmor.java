@@ -28,7 +28,7 @@ public class ItemMercuryArmor extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:mercury_armorboots")
 	public static final Item boots = null;
 	public ItemMercuryArmor(ElementsHydrexiumMod instance) {
-		super(instance, 70);
+		super(instance, 30);
 	}
 
 	@Override

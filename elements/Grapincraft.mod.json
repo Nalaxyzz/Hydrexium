@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Grapplehead"
+      "value": "CUSTOM:Grappin"
     },
     "name": "grapincraft",
     "namespace": "mod"

@@ -20,7 +20,7 @@ public class ItemGrapplehead extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:grapplehead")
 	public static final Item block = null;
 	public ItemGrapplehead(ElementsHydrexiumMod instance) {
-		super(instance, 35);
+		super(instance, 42);
 	}
 
 	@Override

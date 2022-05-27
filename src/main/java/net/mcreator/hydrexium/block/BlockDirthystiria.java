@@ -22,7 +22,7 @@ public class BlockDirthystiria extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:dirthystiria")
 	public static final Block block = null;
 	public BlockDirthystiria(ElementsHydrexiumMod instance) {
-		super(instance, 71);
+		super(instance, 43);
 	}
 
 	@Override
