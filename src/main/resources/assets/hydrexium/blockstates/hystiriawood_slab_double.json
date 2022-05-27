@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "hydrexium:hystiriawood_slab_double"
+    }
+  }
+}

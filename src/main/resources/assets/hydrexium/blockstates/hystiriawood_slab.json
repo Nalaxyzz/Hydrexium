@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "hydrexium:hystiriawood_slab"
+    },
+    "half=top,variant=default": {
+      "model": "hydrexium:hystiriawood_slab_top"
+    }
+  }
+}

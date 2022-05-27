@@ -1,0 +1,8 @@
+{
+  "parent": "block/half_slab",
+  "textures": {
+    "bottom": "hydrexium:blocks/hystiriawood_planks",
+    "top": "hydrexium:blocks/hystiriawood_planks",
+    "side": "hydrexium:blocks/hystiriawood_planks"
+  }
+}

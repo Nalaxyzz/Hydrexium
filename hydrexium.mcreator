@@ -1,5 +1,6 @@
 {
   "id_map": {
+    "GUI": 1,
     "ENTITY": 1
   },
   "mod_elements": [
@@ -809,6 +810,68 @@
       "ids": {},
       "registry_name": "dirthystiria",
       "path": "~/block"
+    },
+    {
+      "name": "HystiriawoodWood",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hystiriawood_wood",
+      "path": "~/block"
+    },
+    {
+      "name": "HystiriawoodLog",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hystiriawood_log",
+      "path": "~/block"
+    },
+    {
+      "name": "HystiriawoodPlanks",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hystiriawood_planks",
+      "path": "~/block"
+    },
+    {
+      "name": "HystiriawoodStairs",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hystiriawood_stairs",
+      "path": "~/block"
+    },
+    {
+      "name": "HystiriawoodSlab",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hystiriawood_slab",
+      "path": "~/block"
+    },
+    {
+      "name": "Compressorgui",
+      "type": "gui",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      },
+      "registry_name": "compressorgui",
+      "path": "~/gui"
     }
   ],
   "variable_elements": [],
@@ -816,8 +879,8 @@
   "language_map": {
     "en_us": {
       "tile.compressor.name": "Compressor",
-      "tile.inferniumore.name": "Infernium ore",
       "tile.voidiumblock.name": "Voidium block",
+      "tile.inferniumore.name": "Infernium ore",
       "item.hammerhydrexium.name": "Hammer hydrexium",
       "item.hammerinfernium.name": "Hammer infernium",
       "item.hydrexiumplaque.name": "Hydrexium plaque",
@@ -828,6 +891,7 @@
       "item.mercury_armorhelmet.name": "Mercury Helmet",
       "tile.fauconiumore.name": "Fauconium ore",
       "tile.infinityore.name": "Infinity ore",
+      "tile.hystiriawood_wood.name": "Hystiriawood Wood",
       "tile.hydrexiumore.name": "Hydrexium ore",
       "tile.voidiumore.name": "Voidium ore",
       "tile.hydrexiumore_2.name": "Hydrexium ore ",
@@ -845,10 +909,12 @@
       "item.inferniumingot.name": "Infernium ingot",
       "tile.oxoniumblock.name": "Oxonium block",
       "item.hydrexiumarmoradvancedboots.name": "Bottes en Hydrexium avencé",
+      "tile.hystiriawood_log.name": "Hystiriawood Log",
       "item.hydrexiumlegs.name": "Jambières de Hydrexium",
       "item.hydrexiumarmoradvancedhelmet.name": "Casque en Hydrexium avencé",
       "tile.hydrexiumblock.name": "Hydrexium block",
       "tile.dirthystiria.name": "Dirt hystiria",
+      "tile.hystiriawood_slab.name": "Hystiriawood Slab",
       "tile.inferniumblock.name": "Infernium block",
       "item.hydrexiumbody.name": "Plastron de Hydrexium",
       "tile.slavicniumblock.name": "Slavicniumblock",
@@ -859,8 +925,10 @@
       "item.slavicniumhelmet.name": "Casque en Slavicnium",
       "tile.infinityblock.name": "Infinity block",
       "tile.oxoniumore.name": "Oxonium ore",
+      "tile.hystiriawood_stairs.name": "Hystiriawood Stairs",
       "itemGroup.tabhydrexiumtab": "Hydrexium ",
       "tile.slavicniumore.name": "Slavicnium ore",
+      "tile.hystiriawood_planks.name": "Hystiriawood Planks",
       "item.hydrexiumarmoradvancedlegs.name": "Jambières de Hydrexium avencé",
       "item.slavicniumlegs.name": "Jambières de Slavicnium",
       "item.grapplehead.name": "Grapple head",
@@ -904,7 +972,7 @@
   "workspaceSettings": {
     "modid": "hydrexium",
     "modName": "Hydrexium",
-    "version": "1.1.2",
+    "version": "Préalpha 1.1.3",
     "author": "Nalaxyzz",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
