@@ -1038,6 +1038,16 @@
       "ids": {},
       "registry_name": "slavicniumtool_5",
       "path": "~/craft"
+    },
+    {
+      "name": "Sticknoir",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sticknoir",
+      "path": "~/item"
     }
   ],
   "variable_elements": [],
@@ -1045,8 +1055,8 @@
   "language_map": {
     "en_us": {
       "tile.compressor.name": "Compressor",
-      "tile.inferniumore.name": "Infernium ore",
       "tile.voidiumblock.name": "Voidium block",
+      "tile.inferniumore.name": "Infernium ore",
       "item.hoeslavicnium.name": "Hoe en slavicnium",
       "item.hammerhydrexium.name": "Hammer hydrexium",
       "item.hammerinfernium.name": "Hammer infernium",
@@ -1056,9 +1066,9 @@
       "subtitles.urssisback": "",
       "item.oxoniumingot.name": "Oxonium ingot",
       "item.slavicniumingot.name": "Slavicnium ingot",
-      "item.mercury_armorhelmet.name": "Mercury Helmet",
-      "item.epeeslavicnium.name": "Epee en slavicnium",
       "item.epeehydrexium.name": "Epee en hydrexium",
+      "item.epeeslavicnium.name": "Epee en slavicnium",
+      "item.mercury_armorhelmet.name": "Mercury Helmet",
       "tile.fauconiumore.name": "Fauconium ore",
       "tile.infinityore.name": "Infinity ore",
       "tile.hydrexiumore.name": "Hydrexium ore",
@@ -1074,6 +1084,7 @@
       "item.infinityingot.name": "Infinity ingot",
       "item.inferniumboots.name": "Bottes en Infernium",
       "item.mercury_armorboots.name": "Mercury Boots",
+      "item.sticknoir.name": "Black Stick",
       "item.mercury_armorlegs.name": "Mercury Leggings",
       "item.hammerinfinity.name": "Hammer infinity",
       "item.voidiumingot.name": "Voidium ingot",
