@@ -30,7 +30,7 @@ public class ItemHammerinfinity extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:hammerinfinity")
 	public static final Item block = null;
 	public ItemHammerinfinity(ElementsHydrexiumMod instance) {
-		super(instance, 32);
+		super(instance, 34);
 	}
 
 	@Override

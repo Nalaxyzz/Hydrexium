@@ -1,0 +1,26 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:slavicniumingot"
+    },
+    "2": {
+      "item": "hydrexium:slavicniumingot"
+    },
+    "3": {
+      "item": "hydrexium:slavicniumingot"
+    },
+    "5": {
+      "item": "hydrexium:slavicniumingot"
+    }
+  },
+  "result": {
+    "item": "hydrexium:slavicniumboots",
+    "count": 1
+  }
+}

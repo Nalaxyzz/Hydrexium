@@ -1,0 +1,39 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:slavicniumingot"
+    },
+    "2": {
+      "item": "hydrexium:slavicniumingot"
+    },
+    "3": {
+      "item": "hydrexium:slavicniumingot"
+    },
+    "4": {
+      "item": "hydrexium:slavicniumingot"
+    },
+    "5": {
+      "item": "hydrexium:slavicniumingot"
+    },
+    "6": {
+      "item": "hydrexium:slavicniumingot"
+    },
+    "7": {
+      "item": "hydrexium:slavicniumingot"
+    },
+    "8": {
+      "item": "hydrexium:slavicniumingot"
+    }
+  },
+  "result": {
+    "item": "hydrexium:slavicniumbody",
+    "count": 1
+  }
+}

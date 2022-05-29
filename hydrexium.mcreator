@@ -67,7 +67,7 @@
     {
       "name": "Fauconiumingot",
       "type": "item",
-      "sortid": 19,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -77,7 +77,7 @@
     {
       "name": "Voidiumingot",
       "type": "item",
-      "sortid": 18,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -107,7 +107,7 @@
     {
       "name": "Slavicniumingot",
       "type": "item",
-      "sortid": 20,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -147,7 +147,7 @@
     {
       "name": "Hydrexiumingot",
       "type": "item",
-      "sortid": 21,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -221,7 +221,7 @@
     {
       "name": "Infinityingot",
       "type": "item",
-      "sortid": 22,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -231,7 +231,7 @@
     {
       "name": "Oxoniumingot",
       "type": "item",
-      "sortid": 23,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -261,7 +261,7 @@
     {
       "name": "Inferniumingot",
       "type": "item",
-      "sortid": 24,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -311,7 +311,7 @@
     {
       "name": "Mercuryingot",
       "type": "item",
-      "sortid": 25,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -551,7 +551,7 @@
     {
       "name": "Hydrexiumarmoradvanced",
       "type": "armor",
-      "sortid": 27,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -567,7 +567,7 @@
     {
       "name": "Slavicnium",
       "type": "armor",
-      "sortid": 28,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -583,7 +583,7 @@
     {
       "name": "Hydrexium",
       "type": "armor",
-      "sortid": 29,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -599,7 +599,7 @@
     {
       "name": "Hammerinfinity",
       "type": "tool",
-      "sortid": 32,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -609,7 +609,7 @@
     {
       "name": "Hammerinfernium",
       "type": "tool",
-      "sortid": 33,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -619,7 +619,7 @@
     {
       "name": "Hammerhydrexium",
       "type": "tool",
-      "sortid": 34,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -697,7 +697,7 @@
     {
       "name": "Hydrexiumplaque",
       "type": "item",
-      "sortid": 26,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -736,7 +736,7 @@
     {
       "name": "Grapplehead",
       "type": "item",
-      "sortid": 42,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -746,7 +746,7 @@
     {
       "name": "Grappin",
       "type": "gun",
-      "sortid": 41,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -778,7 +778,7 @@
     {
       "name": "MercuryArmor",
       "type": "armor",
-      "sortid": 30,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -794,7 +794,7 @@
     {
       "name": "Dirthystiria",
       "type": "block",
-      "sortid": 43,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -804,7 +804,7 @@
     {
       "name": "Compressor",
       "type": "block",
-      "sortid": 44,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -866,7 +866,7 @@
     {
       "name": "Infernium",
       "type": "armor",
-      "sortid": 31,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -882,7 +882,7 @@
     {
       "name": "Epeeslavicnium",
       "type": "tool",
-      "sortid": 35,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -892,7 +892,7 @@
     {
       "name": "Piocheslavicnium",
       "type": "tool",
-      "sortid": 36,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -902,7 +902,7 @@
     {
       "name": "Pelleslavicnium",
       "type": "tool",
-      "sortid": 37,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -922,7 +922,7 @@
     {
       "name": "Hoeslavicnium",
       "type": "tool",
-      "sortid": 38,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -932,7 +932,7 @@
     {
       "name": "Epeehydrexium",
       "type": "tool",
-      "sortid": 40,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -942,12 +942,102 @@
     {
       "name": "Piochehydrexium",
       "type": "tool",
-      "sortid": 39,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "piochehydrexium",
       "path": "~/item"
+    },
+    {
+      "name": "Slavicniumarmor1",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavicniumarmor_1",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slavicniumarmor2",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavicniumarmor_2",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slavicniumarmor3",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavicniumarmor_3",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slavicniumarmor4",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavicniumarmor_4",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slavicniumtool1",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavicniumtool_1",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slavicniumtool2",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavicniumtool_2",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slavicniumtool3",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavicniumtool_3",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slavicniumtool4",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavicniumtool_4",
+      "path": "~/craft"
+    },
+    {
+      "name": "Slavicniumtool5",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slavicniumtool_5",
+      "path": "~/craft"
     }
   ],
   "variable_elements": [],
@@ -1054,7 +1144,7 @@
   "workspaceSettings": {
     "modid": "hydrexium",
     "modName": "Hydrexium",
-    "version": "Version 1.1.8",
+    "version": "Version 1.1.9",
     "author": "Nalaxyzz",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
