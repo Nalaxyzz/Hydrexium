@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "hydrexium:upgrade_stationmk_1"
+    },
+    "facing=north": {
+      "model": "hydrexium:upgrade_stationmk_1"
+    },
+    "facing=east": {
+      "model": "hydrexium:upgrade_stationmk_1",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "hydrexium:upgrade_stationmk_1",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "hydrexium:upgrade_stationmk_1",
+      "y": 270
+    }
+  }
+}

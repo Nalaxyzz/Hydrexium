@@ -1,0 +1,42 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:bluteniumingot"
+    },
+    "1": {
+      "item": "hydrexium:voidiumingot"
+    },
+    "2": {
+      "item": "hydrexium:bluteniumingot"
+    },
+    "3": {
+      "item": "hydrexium:bluteniumingot"
+    },
+    "4": {
+      "item": "hydrexium:upgrade_stationmk_1"
+    },
+    "5": {
+      "item": "hydrexium:bluteniumingot"
+    },
+    "6": {
+      "item": "hydrexium:bluteniumingot"
+    },
+    "7": {
+      "item": "hydrexium:bluteniumingot"
+    },
+    "8": {
+      "item": "hydrexium:bluteniumingot"
+    }
+  },
+  "result": {
+    "item": "hydrexium:upgrade_stationmk_2",
+    "count": 1
+  }
+}

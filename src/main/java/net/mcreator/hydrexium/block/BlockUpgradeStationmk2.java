@@ -34,46 +34,41 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.Block;
 
-import net.mcreator.hydrexium.procedure.ProcedureCompressorcraft;
-import net.mcreator.hydrexium.gui.GuiCompressorgui;
+import net.mcreator.hydrexium.gui.GuiUpgradeStationgui;
 import net.mcreator.hydrexium.creativetab.TabHydrexiumtab;
 import net.mcreator.hydrexium.HydrexiumMod;
 import net.mcreator.hydrexium.ElementsHydrexiumMod;
 
-import java.util.Random;
-import java.util.Map;
-import java.util.HashMap;
-
 @ElementsHydrexiumMod.ModElement.Tag
-public class BlockCompressor extends ElementsHydrexiumMod.ModElement {
-	@GameRegistry.ObjectHolder("hydrexium:compressor")
+public class BlockUpgradeStationmk2 extends ElementsHydrexiumMod.ModElement {
+	@GameRegistry.ObjectHolder("hydrexium:upgrade_stationmk_2")
 	public static final Block block = null;
-	public BlockCompressor(ElementsHydrexiumMod instance) {
-		super(instance, 19);
+	public BlockUpgradeStationmk2(ElementsHydrexiumMod instance) {
+		super(instance, 94);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("compressor"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("upgrade_stationmk_2"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
 	public void init(FMLInitializationEvent event) {
-		GameRegistry.registerTileEntity(TileEntityCustom.class, "hydrexium:tileentitycompressor");
+		GameRegistry.registerTileEntity(TileEntityCustom.class, "hydrexium:tileentityupgrade_stationmk_2");
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("hydrexium:compressor", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
+				new ModelResourceLocation("hydrexium:upgrade_stationmk_2", "inventory"));
 	}
 	public static class BlockCustom extends Block implements ITileEntityProvider {
 		public BlockCustom() {
 			super(Material.ANVIL);
-			setUnlocalizedName("compressor");
+			setUnlocalizedName("upgrade_stationmk_2");
 			setSoundType(SoundType.ANVIL);
-			setHarvestLevel("pickaxe", 0);
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);
@@ -127,32 +122,6 @@ public class BlockCompressor extends ElementsHydrexiumMod.ModElement {
 		}
 
 		@Override
-		public void onBlockAdded(World world, BlockPos pos, IBlockState state) {
-			super.onBlockAdded(world, pos, state);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
-		}
-
-		@Override
-		public void updateTick(World world, BlockPos pos, IBlockState state, Random random) {
-			super.updateTick(world, pos, state, random);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				ProcedureCompressorcraft.executeProcedure($_dependencies);
-			}
-			world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
-		}
-
-		@Override
 		public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer entity, EnumHand hand, EnumFacing direction,
 				float hitX, float hitY, float hitZ) {
 			super.onBlockActivated(world, pos, state, entity, hand, direction, hitX, hitY, hitZ);
@@ -160,7 +129,7 @@ public class BlockCompressor extends ElementsHydrexiumMod.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			if (entity instanceof EntityPlayer) {
-				((EntityPlayer) entity).openGui(HydrexiumMod.instance, GuiCompressorgui.GUIID, world, x, y, z);
+				((EntityPlayer) entity).openGui(HydrexiumMod.instance, GuiUpgradeStationgui.GUIID, world, x, y, z);
 			}
 			return true;
 		}
@@ -193,7 +162,7 @@ public class BlockCompressor extends ElementsHydrexiumMod.ModElement {
 
 		@Override
 		public String getName() {
-			return "container.compressor";
+			return "container.upgrade_stationmk_2";
 		}
 
 		@Override
@@ -239,12 +208,13 @@ public class BlockCompressor extends ElementsHydrexiumMod.ModElement {
 
 		@Override
 		public String getGuiID() {
-			return "hydrexium:compressor";
+			return "hydrexium:upgrade_stationmk_2";
 		}
 
 		@Override
 		public Container createContainer(InventoryPlayer playerInventory, EntityPlayer playerIn) {
-			return new GuiCompressorgui.GuiContainerMod(this.getWorld(), this.getPos().getX(), this.getPos().getY(), this.getPos().getZ(), playerIn);
+			return new GuiUpgradeStationgui.GuiContainerMod(this.getWorld(), this.getPos().getX(), this.getPos().getY(), this.getPos().getZ(),
+					playerIn);
 		}
 
 		@Override

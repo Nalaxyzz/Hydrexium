@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "GUI": 2,
-    "ENTITY": 1
+    "ENTITY": 1,
+    "GUI": 5
   },
   "mod_elements": [
     {
@@ -1048,12 +1048,143 @@
       "ids": {},
       "registry_name": "sticknoir",
       "path": "~/item"
+    },
+    {
+      "name": "UpgradeStationmk1",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "upgrade_stationmk_1",
+      "path": "~/Mechanic"
+    },
+    {
+      "name": "UpgradeStationmk2",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "upgrade_stationmk_2",
+      "path": "~/Mechanic"
+    },
+    {
+      "name": "Bluteniumingot",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluteniumingot",
+      "path": "~/item"
+    },
+    {
+      "name": "Furnaceblutenium",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "furnaceblutenium",
+      "path": "~/craft"
+    },
+    {
+      "name": "Stationmk1craft",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stationmk_1craft",
+      "path": "~/craft"
+    },
+    {
+      "name": "Stationmk2craft",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stationmk_2craft",
+      "path": "~/craft"
+    },
+    {
+      "name": "UpgradeStationgui",
+      "type": "gui",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 4
+      },
+      "registry_name": "upgrade_stationgui",
+      "path": "~/gui"
+    },
+    {
+      "name": "UpgradeStationmk2procedure",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "upgrade_stationmk_2procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "UpgradeStationguimk1",
+      "type": "gui",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 5
+      },
+      "registry_name": "upgrade_stationguimk_1",
+      "path": "~/gui"
+    },
+    {
+      "name": "UpgradeStationproceduremk1",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "upgrade_stationproceduremk_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Hammer1",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hammer_1",
+      "path": "~/craft"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.bluteniumingot.name": "Blutenium ingot",
       "tile.compressor.name": "Compressor",
       "tile.voidiumblock.name": "Voidium block",
       "tile.inferniumore.name": "Infernium ore",
@@ -1066,9 +1197,9 @@
       "subtitles.urssisback": "",
       "item.oxoniumingot.name": "Oxonium ingot",
       "item.slavicniumingot.name": "Slavicnium ingot",
-      "item.epeehydrexium.name": "Epee en hydrexium",
-      "item.epeeslavicnium.name": "Epee en slavicnium",
       "item.mercury_armorhelmet.name": "Mercury Helmet",
+      "item.epeeslavicnium.name": "Epee en slavicnium",
+      "item.epeehydrexium.name": "Epee en hydrexium",
       "tile.fauconiumore.name": "Fauconium ore",
       "tile.infinityore.name": "Infinity ore",
       "tile.hydrexiumore.name": "Hydrexium ore",
@@ -1100,6 +1231,7 @@
       "item.hydrexiumbody.name": "Plastron en Hydrexium",
       "tile.slavicniumblock.name": "Slavicniumblock",
       "item.mercuryingot.name": "Mercury ingot",
+      "tile.upgrade_stationmk_2.name": "Upgrade Station mk2",
       "item.grappin.name": "grapple",
       "item.hydrexiumingot.name": "Hydrexium ingot",
       "item.slavicniumboots.name": "Bottes en Slavicnium",
@@ -1107,6 +1239,7 @@
       "tile.infinityblock.name": "Infinity block",
       "tile.oxoniumore.name": "Oxonium ore",
       "item.hacheslavicnium.name": "Hache slavicnium",
+      "tile.upgrade_stationmk_1.name": "Upgrade Station mk1",
       "itemGroup.tabhydrexiumtab": "Hydrexium ",
       "tile.slavicniumore.name": "Slavicnium ore",
       "item.hydrexiumarmoradvancedlegs.name": "Jambières en Hydrexium avencé",
@@ -1155,7 +1288,7 @@
   "workspaceSettings": {
     "modid": "hydrexium",
     "modName": "Hydrexium",
-    "version": "Version 1.1.9",
+    "version": "Version 1.2.0",
     "author": "Nalaxyzz",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

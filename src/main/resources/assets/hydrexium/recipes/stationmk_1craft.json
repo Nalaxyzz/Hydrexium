@@ -1,0 +1,42 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:slavicniumingot"
+    },
+    "1": {
+      "item": "minecraft:light_weighted_pressure_plate"
+    },
+    "2": {
+      "item": "hydrexium:slavicniumingot"
+    },
+    "3": {
+      "item": "hydrexium:slavicniumingot"
+    },
+    "4": {
+      "item": "hydrexium:inferniumingot"
+    },
+    "5": {
+      "item": "hydrexium:slavicniumingot"
+    },
+    "6": {
+      "item": "hydrexium:slavicniumingot"
+    },
+    "7": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "8": {
+      "item": "hydrexium:slavicniumingot"
+    }
+  },
+  "result": {
+    "item": "hydrexium:upgrade_stationmk_1",
+    "count": 1
+  }
+}

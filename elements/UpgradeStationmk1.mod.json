@@ -2,15 +2,15 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "compressor_bas",
-    "textureTop": "compressor_haut",
-    "textureLeft": "compressor_cote",
-    "textureFront": "compressor_cote_2",
-    "textureRight": "compressor_cote",
-    "textureBack": "compressor_cote_2",
+    "texture": "upgrade_stationmk1_bottom",
+    "textureTop": "upgrade_stationmk1_top",
+    "textureLeft": "upgrade_stationmk1_front",
+    "textureFront": "upgrade_stationmk1_front",
+    "textureRight": "upgrade_stationmk1_front",
+    "textureBack": "upgrade_stationmk1_front",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Compressor",
+    "name": "Upgrade Station mk1",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -85,9 +85,9 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": true,
-    "guiBoundTo": "Compressorgui",
+    "guiBoundTo": "UpgradeStationguimk1",
     "openGUIOnRightClick": true,
-    "inventorySize": 10,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -101,9 +101,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "Compressorcraft"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

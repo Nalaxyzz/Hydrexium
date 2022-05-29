@@ -34,6 +34,8 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
+import net.mcreator.hydrexium.gui.GuiUpgradeStationguimk1;
+import net.mcreator.hydrexium.gui.GuiUpgradeStationgui;
 import net.mcreator.hydrexium.gui.GuiCompressorgui;
 
 import java.util.function.Supplier;
@@ -126,6 +128,10 @@ public class ElementsHydrexiumMod implements IFuelHandler, IWorldGenerator {
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiCompressorgui.GUIID)
 				return new GuiCompressorgui.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiUpgradeStationgui.GUIID)
+				return new GuiUpgradeStationgui.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiUpgradeStationguimk1.GUIID)
+				return new GuiUpgradeStationguimk1.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -133,6 +139,10 @@ public class ElementsHydrexiumMod implements IFuelHandler, IWorldGenerator {
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiCompressorgui.GUIID)
 				return new GuiCompressorgui.GuiWindow(world, x, y, z, player);
+			if (id == GuiUpgradeStationgui.GUIID)
+				return new GuiUpgradeStationgui.GuiWindow(world, x, y, z, player);
+			if (id == GuiUpgradeStationguimk1.GUIID)
+				return new GuiUpgradeStationguimk1.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}
