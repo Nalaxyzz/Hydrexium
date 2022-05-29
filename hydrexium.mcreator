@@ -1258,6 +1258,46 @@
       "ids": {},
       "registry_name": "inferniumarmor_4",
       "path": "~/craft"
+    },
+    {
+      "name": "Mercuryarmor1",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuryarmor_1",
+      "path": "~/craft"
+    },
+    {
+      "name": "Mercuryarmor2",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuryarmor_2",
+      "path": "~/craft"
+    },
+    {
+      "name": "Mercuryarmor3",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuryarmor_3",
+      "path": "~/craft"
+    },
+    {
+      "name": "Mercuryarmor4",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuryarmor_4",
+      "path": "~/craft"
     }
   ],
   "variable_elements": [],
@@ -1266,8 +1306,8 @@
     "en_us": {
       "item.bluteniumingot.name": "Blutenium ingot",
       "tile.compressor.name": "Compressor",
-      "tile.voidiumblock.name": "Voidium block",
       "tile.inferniumore.name": "Infernium ore",
+      "tile.voidiumblock.name": "Voidium block",
       "item.hoeslavicnium.name": "Hoe en slavicnium",
       "item.hammerhydrexium.name": "Hammer hydrexium",
       "item.hammerinfernium.name": "Hammer infernium",

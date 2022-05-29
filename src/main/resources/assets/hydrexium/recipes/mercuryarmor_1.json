@@ -1,0 +1,26 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "2": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "3": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "5": {
+      "item": "hydrexium:mercuryingot"
+    }
+  },
+  "result": {
+    "item": "hydrexium:mercury_armorboots",
+    "count": 1
+  }
+}
