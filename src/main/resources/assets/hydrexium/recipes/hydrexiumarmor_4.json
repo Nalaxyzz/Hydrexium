@@ -1,0 +1,29 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:hydrexiumingot"
+    },
+    "1": {
+      "item": "hydrexium:hydrexiumingot"
+    },
+    "2": {
+      "item": "hydrexium:hydrexiumingot"
+    },
+    "3": {
+      "item": "hydrexium:hydrexiumingot"
+    },
+    "5": {
+      "item": "hydrexium:hydrexiumingot"
+    }
+  },
+  "result": {
+    "item": "hydrexium:hydrexiumhelmet",
+    "count": 1
+  }
+}
