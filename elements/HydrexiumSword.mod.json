@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "hydrexium_sword",
+    "texture": "mythril_sword",
     "customModelName": "Normal",
-    "name": "Epee en hydrexium",
+    "name": "Hydrexium Sword",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Hydrexiumtab"
     },
     "toolType": "Sword",
-    "harvestLevel": 4,
-    "efficiency": 6.5,
-    "attackSpeed": 1.5,
-    "enchantability": 7,
-    "damageVsEntity": 10.0,
-    "usageCount": 1500,
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.3,
+    "enchantability": 4,
+    "damageVsEntity": 8.5,
+    "usageCount": 1000,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:Hydrexiumplaque"
+        "value": "CUSTOM:Hydrexiumingot"
       }
     ],
     "immuneToFire": false,
