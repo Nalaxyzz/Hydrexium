@@ -14,7 +14,7 @@ import java.util.Map;
 @ElementsHydrexiumMod.ModElement.Tag
 public class ProcedureHammer extends ElementsHydrexiumMod.ModElement {
 	public ProcedureHammer(ElementsHydrexiumMod instance) {
-		super(instance, 51);
+		super(instance, 55);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

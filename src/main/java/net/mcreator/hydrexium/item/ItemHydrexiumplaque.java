@@ -20,7 +20,7 @@ public class ItemHydrexiumplaque extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:hydrexiumplaque")
 	public static final Item block = null;
 	public ItemHydrexiumplaque(ElementsHydrexiumMod instance) {
-		super(instance, 28);
+		super(instance, 31);
 	}
 
 	@Override

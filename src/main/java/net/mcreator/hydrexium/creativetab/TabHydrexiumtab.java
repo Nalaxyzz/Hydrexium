@@ -13,7 +13,7 @@ import net.mcreator.hydrexium.ElementsHydrexiumMod;
 @ElementsHydrexiumMod.ModElement.Tag
 public class TabHydrexiumtab extends ElementsHydrexiumMod.ModElement {
 	public TabHydrexiumtab(ElementsHydrexiumMod instance) {
-		super(instance, 46);
+		super(instance, 50);
 	}
 
 	@Override

@@ -20,7 +20,7 @@ public class ItemVoidiumingot extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:voidiumingot")
 	public static final Item block = null;
 	public ItemVoidiumingot(ElementsHydrexiumMod instance) {
-		super(instance, 20);
+		super(instance, 22);
 	}
 
 	@Override

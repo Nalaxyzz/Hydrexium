@@ -24,7 +24,7 @@ public class ItemHoeslavicnium extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:hoeslavicnium")
 	public static final Item block = null;
 	public ItemHoeslavicnium(ElementsHydrexiumMod instance) {
-		super(instance, 40);
+		super(instance, 44);
 	}
 
 	@Override

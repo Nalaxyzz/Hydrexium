@@ -17,7 +17,7 @@
     {
       "name": "Hydrexiumtab",
       "type": "tab",
-      "sortid": 46,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -67,7 +67,7 @@
     {
       "name": "Fauconiumingot",
       "type": "item",
-      "sortid": 21,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -77,7 +77,7 @@
     {
       "name": "Voidiumingot",
       "type": "item",
-      "sortid": 20,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -107,7 +107,7 @@
     {
       "name": "Slavicniumingot",
       "type": "item",
-      "sortid": 22,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -117,7 +117,7 @@
     {
       "name": "Furnace1",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -127,7 +127,7 @@
     {
       "name": "Furnace2",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -137,7 +137,7 @@
     {
       "name": "Furnace3",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -147,7 +147,7 @@
     {
       "name": "Hydrexiumingot",
       "type": "item",
-      "sortid": 23,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -157,7 +157,7 @@
     {
       "name": "Furnace4",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -187,7 +187,7 @@
     {
       "name": "Hammer",
       "type": "procedure",
-      "sortid": 51,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -221,7 +221,7 @@
     {
       "name": "Infinityingot",
       "type": "item",
-      "sortid": 24,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -231,7 +231,7 @@
     {
       "name": "Oxoniumingot",
       "type": "item",
-      "sortid": 25,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -261,7 +261,7 @@
     {
       "name": "Inferniumingot",
       "type": "item",
-      "sortid": 26,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -271,7 +271,7 @@
     {
       "name": "Furnace5",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -291,7 +291,7 @@
     {
       "name": "Furnace6",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -311,7 +311,7 @@
     {
       "name": "Mercuryingot",
       "type": "item",
-      "sortid": 27,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -321,7 +321,7 @@
     {
       "name": "Furnace7",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -371,7 +371,7 @@
     {
       "name": "Furnace8",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -381,7 +381,7 @@
     {
       "name": "Furnace9",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -391,7 +391,7 @@
     {
       "name": "Block1",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -401,7 +401,7 @@
     {
       "name": "Block2",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -411,7 +411,7 @@
     {
       "name": "Block3",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -421,7 +421,7 @@
     {
       "name": "Block4",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -431,7 +431,7 @@
     {
       "name": "Block5",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -441,7 +441,7 @@
     {
       "name": "Block6",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -451,7 +451,7 @@
     {
       "name": "Block8",
       "type": "recipe",
-      "sortid": 63,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -461,7 +461,7 @@
     {
       "name": "Block9",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -471,7 +471,7 @@
     {
       "name": "Decraft1",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -481,7 +481,7 @@
     {
       "name": "Decraft2",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -491,7 +491,7 @@
     {
       "name": "Decraft3",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -501,7 +501,7 @@
     {
       "name": "Decraft4",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -511,7 +511,7 @@
     {
       "name": "Decraft5",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -521,7 +521,7 @@
     {
       "name": "Decraft6",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -531,7 +531,7 @@
     {
       "name": "Decraft7",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -541,7 +541,7 @@
     {
       "name": "Decraft8",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -551,7 +551,7 @@
     {
       "name": "Hydrexiumarmoradvanced",
       "type": "armor",
-      "sortid": 29,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -567,7 +567,7 @@
     {
       "name": "Slavicnium",
       "type": "armor",
-      "sortid": 30,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -583,7 +583,7 @@
     {
       "name": "Hydrexium",
       "type": "armor",
-      "sortid": 31,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -599,7 +599,7 @@
     {
       "name": "Hammerinfinity",
       "type": "tool",
-      "sortid": 34,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -609,7 +609,7 @@
     {
       "name": "Hammerinfernium",
       "type": "tool",
-      "sortid": 35,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -619,7 +619,7 @@
     {
       "name": "Hammerhydrexium",
       "type": "tool",
-      "sortid": 36,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -629,7 +629,7 @@
     {
       "name": "HydrexiumarmoradvancedEvenementDeTickDuCasque",
       "type": "procedure",
-      "sortid": 73,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -646,7 +646,7 @@
     {
       "name": "HydrexiumarmoradvancedEvenementDeTickDuPlastron",
       "type": "procedure",
-      "sortid": 74,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -663,7 +663,7 @@
     {
       "name": "HydrexiumarmoradvancedEvenementDeTickDesJambieres",
       "type": "procedure",
-      "sortid": 75,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -680,7 +680,7 @@
     {
       "name": "HydrexiumarmoradvancedEvenementDeTickDesBottes",
       "type": "procedure",
-      "sortid": 76,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -697,7 +697,7 @@
     {
       "name": "Hydrexiumplaque",
       "type": "item",
-      "sortid": 28,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -707,7 +707,7 @@
     {
       "name": "GrappinQuandUneBalleToucheUnBloc",
       "type": "procedure",
-      "sortid": 77,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -736,7 +736,7 @@
     {
       "name": "Grapplehead",
       "type": "item",
-      "sortid": 44,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -746,7 +746,7 @@
     {
       "name": "Grappin",
       "type": "gun",
-      "sortid": 43,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -758,7 +758,7 @@
     {
       "name": "Grapincraft",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -768,7 +768,7 @@
     {
       "name": "Crochetcraft",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -778,7 +778,7 @@
     {
       "name": "MercuryArmor",
       "type": "armor",
-      "sortid": 32,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -814,7 +814,7 @@
     {
       "name": "Compressorgui",
       "type": "gui",
-      "sortid": 80,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -826,7 +826,7 @@
     {
       "name": "Compressorcraft",
       "type": "procedure",
-      "sortid": 81,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -856,7 +856,7 @@
     {
       "name": "CraftCompressor",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -866,7 +866,7 @@
     {
       "name": "Infernium",
       "type": "armor",
-      "sortid": 33,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -882,7 +882,7 @@
     {
       "name": "Epeeslavicnium",
       "type": "tool",
-      "sortid": 37,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -892,7 +892,7 @@
     {
       "name": "Piocheslavicnium",
       "type": "tool",
-      "sortid": 38,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -902,7 +902,7 @@
     {
       "name": "Pelleslavicnium",
       "type": "tool",
-      "sortid": 39,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -912,7 +912,7 @@
     {
       "name": "Hacheslavicnium",
       "type": "tool",
-      "sortid": 45,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -922,7 +922,7 @@
     {
       "name": "Hoeslavicnium",
       "type": "tool",
-      "sortid": 40,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -932,7 +932,7 @@
     {
       "name": "Epeehydrexium",
       "type": "tool",
-      "sortid": 42,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -942,7 +942,7 @@
     {
       "name": "Piochehydrexium",
       "type": "tool",
-      "sortid": 41,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -952,7 +952,7 @@
     {
       "name": "Slavicniumarmor1",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -962,7 +962,7 @@
     {
       "name": "Slavicniumarmor2",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -972,7 +972,7 @@
     {
       "name": "Slavicniumarmor3",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -982,7 +982,7 @@
     {
       "name": "Slavicniumarmor4",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -992,7 +992,7 @@
     {
       "name": "Slavicniumtool1",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1002,7 +1002,7 @@
     {
       "name": "Slavicniumtool2",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1012,7 +1012,7 @@
     {
       "name": "Slavicniumtool3",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1022,7 +1022,7 @@
     {
       "name": "Slavicniumtool4",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1032,7 +1032,7 @@
     {
       "name": "Slavicniumtool5",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1042,7 +1042,7 @@
     {
       "name": "Sticknoir",
       "type": "item",
-      "sortid": 92,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1052,7 +1052,7 @@
     {
       "name": "UpgradeStationmk1",
       "type": "block",
-      "sortid": 93,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1062,7 +1062,7 @@
     {
       "name": "UpgradeStationmk2",
       "type": "block",
-      "sortid": 94,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1072,7 +1072,7 @@
     {
       "name": "Bluteniumingot",
       "type": "item",
-      "sortid": 95,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1082,7 +1082,7 @@
     {
       "name": "Furnaceblutenium",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1092,7 +1092,7 @@
     {
       "name": "Stationmk1craft",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1102,7 +1102,7 @@
     {
       "name": "Stationmk2craft",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1112,7 +1112,7 @@
     {
       "name": "UpgradeStationgui",
       "type": "gui",
-      "sortid": 98,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1124,7 +1124,7 @@
     {
       "name": "UpgradeStationmk2procedure",
       "type": "procedure",
-      "sortid": 99,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1142,7 +1142,7 @@
     {
       "name": "UpgradeStationguimk1",
       "type": "gui",
-      "sortid": 100,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1154,7 +1154,7 @@
     {
       "name": "UpgradeStationproceduremk1",
       "type": "procedure",
-      "sortid": 101,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1172,7 +1172,7 @@
     {
       "name": "Hammer1",
       "type": "recipe",
-      "sortid": 102,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1182,7 +1182,7 @@
     {
       "name": "Hydrexiumarmor1",
       "type": "recipe",
-      "sortid": 103,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1192,7 +1192,7 @@
     {
       "name": "Hydrexiumarmor2",
       "type": "recipe",
-      "sortid": 104,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1202,7 +1202,7 @@
     {
       "name": "Hydrexiumarmor3",
       "type": "recipe",
-      "sortid": 105,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1212,7 +1212,7 @@
     {
       "name": "Hydrexiumarmor4",
       "type": "recipe",
-      "sortid": 106,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1222,7 +1222,7 @@
     {
       "name": "Inferniumarmor1",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1232,7 +1232,7 @@
     {
       "name": "Inferniumarmor2",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1242,7 +1242,7 @@
     {
       "name": "Inferniumarmor3",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1252,7 +1252,7 @@
     {
       "name": "Inferniumarmor4",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1262,7 +1262,7 @@
     {
       "name": "Mercuryarmor1",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1272,7 +1272,7 @@
     {
       "name": "Mercuryarmor2",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1282,7 +1282,7 @@
     {
       "name": "Mercuryarmor3",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1292,7 +1292,7 @@
     {
       "name": "Mercuryarmor4",
       "type": "recipe",
-      "sortid": 114,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1306,8 +1306,8 @@
     "en_us": {
       "item.bluteniumingot.name": "Blutenium ingot",
       "tile.compressor.name": "Compressor",
-      "tile.inferniumore.name": "Infernium ore",
       "tile.voidiumblock.name": "Voidium block",
+      "tile.inferniumore.name": "Infernium ore",
       "item.hoeslavicnium.name": "Hoe en slavicnium",
       "item.hammerhydrexium.name": "Hammer hydrexium",
       "item.hammerinfernium.name": "Hammer infernium",

@@ -20,7 +20,7 @@ public class ItemSticknoir extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:sticknoir")
 	public static final Item block = null;
 	public ItemSticknoir(ElementsHydrexiumMod instance) {
-		super(instance, 92);
+		super(instance, 32);
 	}
 
 	@Override

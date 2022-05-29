@@ -38,7 +38,7 @@ public class GuiCompressorgui extends ElementsHydrexiumMod.ModElement {
 	public static int GUIID = 2;
 	public static HashMap guistate = new HashMap();
 	public GuiCompressorgui(ElementsHydrexiumMod instance) {
-		super(instance, 80);
+		super(instance, 84);
 	}
 
 	@Override

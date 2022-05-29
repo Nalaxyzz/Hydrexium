@@ -28,7 +28,7 @@ public class ItemInfernium extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:inferniumboots")
 	public static final Item boots = null;
 	public ItemInfernium(ElementsHydrexiumMod instance) {
-		super(instance, 33);
+		super(instance, 37);
 	}
 
 	@Override
