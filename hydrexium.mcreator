@@ -1218,6 +1218,46 @@
       "ids": {},
       "registry_name": "hydrexiumarmor_4",
       "path": "~/craft"
+    },
+    {
+      "name": "Inferniumarmor1",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumarmor_1",
+      "path": "~/craft"
+    },
+    {
+      "name": "Inferniumarmor2",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumarmor_2",
+      "path": "~/craft"
+    },
+    {
+      "name": "Inferniumarmor3",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumarmor_3",
+      "path": "~/craft"
+    },
+    {
+      "name": "Inferniumarmor4",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumarmor_4",
+      "path": "~/craft"
     }
   ],
   "variable_elements": [],
@@ -1226,8 +1266,8 @@
     "en_us": {
       "item.bluteniumingot.name": "Blutenium ingot",
       "tile.compressor.name": "Compressor",
-      "tile.inferniumore.name": "Infernium ore",
       "tile.voidiumblock.name": "Voidium block",
+      "tile.inferniumore.name": "Infernium ore",
       "item.hoeslavicnium.name": "Hoe en slavicnium",
       "item.hammerhydrexium.name": "Hammer hydrexium",
       "item.hammerinfernium.name": "Hammer infernium",

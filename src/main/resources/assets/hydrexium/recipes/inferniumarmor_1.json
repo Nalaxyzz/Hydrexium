@@ -1,0 +1,26 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:inferniumingot"
+    },
+    "2": {
+      "item": "hydrexium:inferniumingot"
+    },
+    "3": {
+      "item": "hydrexium:inferniumingot"
+    },
+    "5": {
+      "item": "hydrexium:inferniumingot"
+    }
+  },
+  "result": {
+    "item": "hydrexium:inferniumboots",
+    "count": 1
+  }
+}
