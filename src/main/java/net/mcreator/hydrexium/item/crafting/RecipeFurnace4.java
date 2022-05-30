@@ -13,7 +13,7 @@ import net.mcreator.hydrexium.ElementsHydrexiumMod;
 @ElementsHydrexiumMod.ModElement.Tag
 public class RecipeFurnace4 extends ElementsHydrexiumMod.ModElement {
 	public RecipeFurnace4(ElementsHydrexiumMod instance) {
-		super(instance, 54);
+		super(instance, 64);
 	}
 
 	@Override

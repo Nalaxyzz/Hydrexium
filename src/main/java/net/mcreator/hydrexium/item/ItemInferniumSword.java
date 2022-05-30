@@ -14,9 +14,9 @@ import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
+import net.mcreator.hydrexium.creativetab.TabHydrexiumtab;
 import net.mcreator.hydrexium.ElementsHydrexiumMod;
 
 import java.util.Set;
@@ -29,7 +29,7 @@ public class ItemInferniumSword extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:infernium_sword")
 	public static final Item block = null;
 	public ItemInferniumSword(ElementsHydrexiumMod instance) {
-		super(instance, 124);
+		super(instance, 50);
 	}
 
 	@Override
@@ -52,7 +52,7 @@ public class ItemInferniumSword extends ElementsHydrexiumMod.ModElement {
 				ret.put("sword", 2);
 				return ret.keySet();
 			}
-		}.setUnlocalizedName("infernium_sword").setRegistryName("infernium_sword").setCreativeTab(CreativeTabs.TOOLS));
+		}.setUnlocalizedName("infernium_sword").setRegistryName("infernium_sword").setCreativeTab(TabHydrexiumtab.tab));
 	}
 
 	@SideOnly(Side.CLIENT)

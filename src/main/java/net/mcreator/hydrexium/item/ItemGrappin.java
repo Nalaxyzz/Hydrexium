@@ -42,7 +42,7 @@ public class ItemGrappin extends ElementsHydrexiumMod.ModElement {
 	public static final Item block = null;
 	public static final int ENTITYID = 1;
 	public ItemGrappin(ElementsHydrexiumMod instance) {
-		super(instance, 47);
+		super(instance, 55);
 	}
 
 	@Override

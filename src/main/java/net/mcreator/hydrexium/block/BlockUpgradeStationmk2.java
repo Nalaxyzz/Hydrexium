@@ -44,7 +44,7 @@ public class BlockUpgradeStationmk2 extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:upgrade_stationmk_2")
 	public static final Block block = null;
 	public BlockUpgradeStationmk2(ElementsHydrexiumMod instance) {
-		super(instance, 94);
+		super(instance, 20);
 	}
 
 	@Override

@@ -24,7 +24,7 @@ import java.util.Map;
 @ElementsHydrexiumMod.ModElement.Tag
 public class ProcedureCompressorcraft extends ElementsHydrexiumMod.ModElement {
 	public ProcedureCompressorcraft(ElementsHydrexiumMod instance) {
-		super(instance, 85);
+		super(instance, 95);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

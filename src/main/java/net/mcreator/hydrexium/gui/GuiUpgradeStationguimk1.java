@@ -39,7 +39,7 @@ public class GuiUpgradeStationguimk1 extends ElementsHydrexiumMod.ModElement {
 	public static int GUIID = 5;
 	public static HashMap guistate = new HashMap();
 	public GuiUpgradeStationguimk1(ElementsHydrexiumMod instance) {
-		super(instance, 100);
+		super(instance, 111);
 	}
 
 	@Override

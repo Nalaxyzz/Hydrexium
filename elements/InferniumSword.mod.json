@@ -8,7 +8,7 @@
     "name": "Infernium Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Hydrexiumtab"
     },
     "toolType": "Sword",
     "harvestLevel": 2,

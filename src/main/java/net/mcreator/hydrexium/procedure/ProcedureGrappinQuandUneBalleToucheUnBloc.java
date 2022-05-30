@@ -9,7 +9,7 @@ import java.util.Map;
 @ElementsHydrexiumMod.ModElement.Tag
 public class ProcedureGrappinQuandUneBalleToucheUnBloc extends ElementsHydrexiumMod.ModElement {
 	public ProcedureGrappinQuandUneBalleToucheUnBloc(ElementsHydrexiumMod instance) {
-		super(instance, 81);
+		super(instance, 91);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
