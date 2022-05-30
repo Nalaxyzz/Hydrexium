@@ -42,7 +42,7 @@ public class ItemGrappin extends ElementsHydrexiumMod.ModElement {
 	public static final Item block = null;
 	public static final int ENTITYID = 1;
 	public ItemGrappin(ElementsHydrexiumMod instance) {
-		super(instance, 55);
+		super(instance, 56);
 	}
 
 	@Override
@@ -81,7 +81,7 @@ public class ItemGrappin extends ElementsHydrexiumMod.ModElement {
 		public void onPlayerStoppedUsing(ItemStack itemstack, World world, EntityLivingBase entityLivingBase, int timeLeft) {
 			if (!world.isRemote && entityLivingBase instanceof EntityPlayerMP) {
 				EntityPlayerMP entity = (EntityPlayerMP) entityLivingBase;
-				float power = 0.5f;
+				float power = 0.7f;
 				EntityArrowCustom entityarrow = new EntityArrowCustom(world, entity);
 				entityarrow.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, power * 2, 0);
 				entityarrow.setSilent(true);
