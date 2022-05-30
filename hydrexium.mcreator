@@ -1481,6 +1481,26 @@
       "ids": {},
       "registry_name": "inferniumtool_5",
       "path": "~/craft"
+    },
+    {
+      "name": "CordeGrapin",
+      "type": "item",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corde_grapin",
+      "path": "~/item"
+    },
+    {
+      "name": "Cordecraft",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cordecraft",
+      "path": "~/craft"
     }
   ],
   "variable_elements": [],
@@ -1490,8 +1510,8 @@
       "item.inferniumpickaxe.name": "Inferniumpickaxe",
       "item.bluteniumingot.name": "Blutenium ingot",
       "tile.compressor.name": "Compressor",
-      "tile.voidiumblock.name": "Voidium block",
       "tile.inferniumore.name": "Infernium ore",
+      "tile.voidiumblock.name": "Voidium block",
       "item.hoeslavicnium.name": "Hoe en slavicnium",
       "item.hammerhydrexium.name": "Hammer hydrexium",
       "item.hammerinfernium.name": "Hammer infernium",
@@ -1556,6 +1576,7 @@
       "tile.slavicniumore.name": "Slavicnium ore",
       "item.hydrexiumarmoradvancedlegs.name": "Jambières en Hydrexium avencé",
       "item.inferniumlegs.name": "Jambières de Infernium",
+      "item.corde_grapin.name": "Corde Grapin",
       "item.slavicniumlegs.name": "Jambières en Slavicnium",
       "item.grapplehead.name": "Grapple head",
       "item.mercury_armorbody.name": "Mercury Chestplate",
@@ -1604,7 +1625,7 @@
   "workspaceSettings": {
     "modid": "hydrexium",
     "modName": "Hydrexium",
-    "version": "Version 1.2.2",
+    "version": "Version 1.2.3",
     "author": "Nalaxyzz",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

@@ -8,17 +8,17 @@
   ],
   "key": {
     "2": {
-      "item": "hydrexium:grapplehead"
+      "item": "minecraft:lead"
     },
     "4": {
-      "item": "hydrexium:corde_grapin"
+      "item": "minecraft:string"
     },
     "6": {
-      "item": "hydrexium:corde_grapin"
+      "item": "minecraft:lead"
     }
   },
   "result": {
-    "item": "hydrexium:grappin",
-    "count": 1
+    "item": "hydrexium:corde_grapin",
+    "count": 2
   }
 }

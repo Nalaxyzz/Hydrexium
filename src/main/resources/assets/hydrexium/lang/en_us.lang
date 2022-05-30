@@ -1,8 +1,8 @@
 item.inferniumpickaxe.name=Inferniumpickaxe
 item.bluteniumingot.name=Blutenium ingot
 tile.compressor.name=Compressor
-tile.voidiumblock.name=Voidium block
 tile.inferniumore.name=Infernium ore
+tile.voidiumblock.name=Voidium block
 item.hoeslavicnium.name=Hoe en slavicnium
 item.hammerhydrexium.name=Hammer hydrexium
 item.hammerinfernium.name=Hammer infernium
@@ -67,6 +67,7 @@ itemGroup.tabhydrexiumtab=Hydrexium
 tile.slavicniumore.name=Slavicnium ore
 item.hydrexiumarmoradvancedlegs.name=Jambières en Hydrexium avencé
 item.inferniumlegs.name=Jambières de Infernium
+item.corde_grapin.name=Corde Grapin
 item.slavicniumlegs.name=Jambières en Slavicnium
 item.grapplehead.name=Grapple head
 item.mercury_armorbody.name=Mercury Chestplate
