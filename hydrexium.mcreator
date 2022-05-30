@@ -736,7 +736,7 @@
     {
       "name": "Grapplehead",
       "type": "item",
-      "sortid": 56,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -746,7 +746,7 @@
     {
       "name": "Grappin",
       "type": "gun",
-      "sortid": 55,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -902,7 +902,7 @@
     {
       "name": "Pelleslavicnium",
       "type": "tool",
-      "sortid": 43,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -912,7 +912,7 @@
     {
       "name": "Hacheslavicnium",
       "type": "tool",
-      "sortid": 59,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -922,7 +922,7 @@
     {
       "name": "Hoeslavicnium",
       "type": "tool",
-      "sortid": 44,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -932,7 +932,7 @@
     {
       "name": "Epeehydrexium",
       "type": "tool",
-      "sortid": 49,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -942,7 +942,7 @@
     {
       "name": "Piochehydrexium",
       "type": "tool",
-      "sortid": 46,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1302,7 +1302,7 @@
     {
       "name": "HydrexiumSword",
       "type": "tool",
-      "sortid": 45,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1312,7 +1312,7 @@
     {
       "name": "Hydrexiumhoe",
       "type": "tool",
-      "sortid": 48,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1322,7 +1322,7 @@
     {
       "name": "Hydrexiumshovel",
       "type": "tool",
-      "sortid": 47,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1372,7 +1372,7 @@
     {
       "name": "Souris",
       "type": "mob",
-      "sortid": 58,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1385,7 +1385,7 @@
     {
       "name": "InferniumSword",
       "type": "tool",
-      "sortid": 50,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1395,7 +1395,7 @@
     {
       "name": "Inferniumpickaxe",
       "type": "tool",
-      "sortid": 51,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1405,7 +1405,7 @@
     {
       "name": "Inferniumaxe",
       "type": "tool",
-      "sortid": 52,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1415,7 +1415,7 @@
     {
       "name": "InferniumShovel",
       "type": "tool",
-      "sortid": 53,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1425,7 +1425,7 @@
     {
       "name": "Inferniumhoe",
       "type": "tool",
-      "sortid": 54,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1485,7 +1485,7 @@
     {
       "name": "CordeGrapin",
       "type": "item",
-      "sortid": 57,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1507,11 +1507,11 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.inferniumpickaxe.name": "Inferniumpickaxe",
+      "item.inferniumpickaxe.name": "Infernium pickaxe",
       "item.bluteniumingot.name": "Blutenium ingot",
       "tile.compressor.name": "Compressor",
-      "tile.voidiumblock.name": "Voidium block",
       "tile.inferniumore.name": "Infernium ore",
+      "tile.voidiumblock.name": "Voidium block",
       "item.hoeslavicnium.name": "Hoe en slavicnium",
       "item.hammerhydrexium.name": "Hammer hydrexium",
       "item.hammerinfernium.name": "Hammer infernium",
@@ -1521,7 +1521,7 @@
       "subtitles.urssisback": "",
       "item.oxoniumingot.name": "Oxonium ingot",
       "item.slavicniumingot.name": "Slavicnium ingot",
-      "item.inferniumhoe.name": "Inferniumhoe",
+      "item.inferniumhoe.name": "Infernium Hoe",
       "item.mercury_armorhelmet.name": "Mercury Helmet",
       "item.epeeslavicnium.name": "Epee en slavicnium",
       "item.epeehydrexium.name": "Epee en hydrexium",
@@ -1542,7 +1542,7 @@
       "item.inferniumboots.name": "Bottes en Infernium",
       "item.infernium_shovel.name": "Infernium Shovel",
       "item.mercury_armorboots.name": "Mercury Boots",
-      "item.inferniumaxe.name": "Inferniumaxe",
+      "item.inferniumaxe.name": "Infernium Axe",
       "item.sticknoir.name": "Black Stick",
       "item.mercury_armorlegs.name": "Mercury Leggings",
       "item.hydrexiumhoe.name": "Hydrexiumhoe",

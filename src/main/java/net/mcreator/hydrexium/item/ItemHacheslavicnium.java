@@ -11,9 +11,9 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
+import net.mcreator.hydrexium.creativetab.TabHydrexiumtab;
 import net.mcreator.hydrexium.ElementsHydrexiumMod;
 
 import java.util.Set;
@@ -24,7 +24,7 @@ public class ItemHacheslavicnium extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:hacheslavicnium")
 	public static final Item block = null;
 	public ItemHacheslavicnium(ElementsHydrexiumMod instance) {
-		super(instance, 59);
+		super(instance, 43);
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class ItemHacheslavicnium extends ElementsHydrexiumMod.ModElement {
 				ret.put("pickaxe", 2);
 				return ret.keySet();
 			}
-		}.setUnlocalizedName("hacheslavicnium").setRegistryName("hacheslavicnium").setCreativeTab(CreativeTabs.TOOLS));
+		}.setUnlocalizedName("hacheslavicnium").setRegistryName("hacheslavicnium").setCreativeTab(TabHydrexiumtab.tab));
 	}
 
 	@SideOnly(Side.CLIENT)

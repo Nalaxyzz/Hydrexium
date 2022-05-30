@@ -27,7 +27,7 @@ public class ItemInferniumaxe extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:inferniumaxe")
 	public static final Item block = null;
 	public ItemInferniumaxe(ElementsHydrexiumMod instance) {
-		super(instance, 126);
+		super(instance, 53);
 	}
 
 	@Override
