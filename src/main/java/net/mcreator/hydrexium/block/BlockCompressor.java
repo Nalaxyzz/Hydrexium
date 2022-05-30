@@ -34,15 +34,10 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.Block;
 
-import net.mcreator.hydrexium.procedure.ProcedureCompressorcraft;
 import net.mcreator.hydrexium.gui.GuiCompressorgui;
 import net.mcreator.hydrexium.creativetab.TabHydrexiumtab;
 import net.mcreator.hydrexium.HydrexiumMod;
 import net.mcreator.hydrexium.ElementsHydrexiumMod;
-
-import java.util.Random;
-import java.util.Map;
-import java.util.HashMap;
 
 @ElementsHydrexiumMod.ModElement.Tag
 public class BlockCompressor extends ElementsHydrexiumMod.ModElement {
@@ -124,32 +119,6 @@ public class BlockCompressor extends ElementsHydrexiumMod.ModElement {
 				return Container.calcRedstoneFromInventory((TileEntityCustom) tileentity);
 			else
 				return 0;
-		}
-
-		@Override
-		public void onBlockAdded(World world, BlockPos pos, IBlockState state) {
-			super.onBlockAdded(world, pos, state);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
-		}
-
-		@Override
-		public void updateTick(World world, BlockPos pos, IBlockState state, Random random) {
-			super.updateTick(world, pos, state, random);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				ProcedureCompressorcraft.executeProcedure($_dependencies);
-			}
-			world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
 		}
 
 		@Override

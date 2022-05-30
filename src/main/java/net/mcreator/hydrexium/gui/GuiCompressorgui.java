@@ -24,6 +24,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
+import net.mcreator.hydrexium.procedure.ProcedureCompressorcraft;
 import net.mcreator.hydrexium.HydrexiumMod;
 import net.mcreator.hydrexium.ElementsHydrexiumMod;
 
@@ -299,6 +300,7 @@ public class GuiCompressorgui extends ElementsHydrexiumMod.ModElement {
 			this.guiTop = (this.height - 166) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();
+			this.buttonList.add(new GuiButton(0, this.guiLeft + 91, this.guiTop + 57, 45, 20, "fuse"));
 		}
 
 		@Override
@@ -413,6 +415,16 @@ public class GuiCompressorgui extends ElementsHydrexiumMod.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureCompressorcraft.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(EntityPlayer entity, int slotID, int changeType, int meta, int x, int y, int z) {

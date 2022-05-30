@@ -146,6 +146,20 @@
           "x": 231,
           "y": 71
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "fuse",
+          "onClick": {
+            "name": "Compressorcraft"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "fuse",
+          "x": 217,
+          "y": 94
+        }
       }
     ]
   }
