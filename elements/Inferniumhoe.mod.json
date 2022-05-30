@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "8",
+    "texture": "inferniumhoe",
     "customModelName": "Normal",
-    "name": "Epee en slavicnium",
+    "name": "Inferniumhoe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Hydrexiumtab"
     },
-    "toolType": "Sword",
+    "toolType": "Hoe",
     "harvestLevel": 2,
-    "efficiency": 4.0,
+    "efficiency": 7.0,
     "attackSpeed": 1.0,
-    "enchantability": 4,
-    "damageVsEntity": 6.5,
-    "usageCount": 200,
+    "enchantability": 14,
+    "damageVsEntity": 4.0,
+    "usageCount": 300,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:Slavicniumingot"
+        "value": "CUSTOM:Inferniumingot"
       }
     ],
     "immuneToFire": false,

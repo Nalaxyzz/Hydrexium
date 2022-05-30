@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "8",
+    "texture": "inferniumaxe",
     "customModelName": "Normal",
-    "name": "Epee en slavicnium",
+    "name": "Inferniumaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Hydrexiumtab"
     },
-    "toolType": "Sword",
-    "harvestLevel": 2,
-    "efficiency": 4.0,
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 6.0,
     "attackSpeed": 1.0,
-    "enchantability": 4,
-    "damageVsEntity": 6.5,
-    "usageCount": 200,
+    "enchantability": 14,
+    "damageVsEntity": 6.6,
+    "usageCount": 300,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:Slavicniumingot"
+        "value": "CUSTOM:Inferniumingot"
       }
     ],
     "immuneToFire": false,

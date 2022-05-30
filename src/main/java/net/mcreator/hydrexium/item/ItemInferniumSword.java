@@ -14,9 +14,9 @@ import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
-import net.mcreator.hydrexium.creativetab.TabHydrexiumtab;
 import net.mcreator.hydrexium.ElementsHydrexiumMod;
 
 import java.util.Set;
@@ -25,16 +25,16 @@ import java.util.HashMap;
 import com.google.common.collect.Multimap;
 
 @ElementsHydrexiumMod.ModElement.Tag
-public class ItemEpeeslavicnium extends ElementsHydrexiumMod.ModElement {
-	@GameRegistry.ObjectHolder("hydrexium:epeeslavicnium")
+public class ItemInferniumSword extends ElementsHydrexiumMod.ModElement {
+	@GameRegistry.ObjectHolder("hydrexium:infernium_sword")
 	public static final Item block = null;
-	public ItemEpeeslavicnium(ElementsHydrexiumMod instance) {
-		super(instance, 41);
+	public ItemInferniumSword(ElementsHydrexiumMod instance) {
+		super(instance, 124);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("EPEESLAVICNIUM", 2, 200, 4f, 2.5f, 4)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("INFERNIUM_SWORD", 2, 300, 4f, 3f, 2)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -52,12 +52,12 @@ public class ItemEpeeslavicnium extends ElementsHydrexiumMod.ModElement {
 				ret.put("sword", 2);
 				return ret.keySet();
 			}
-		}.setUnlocalizedName("epeeslavicnium").setRegistryName("epeeslavicnium").setCreativeTab(TabHydrexiumtab.tab));
+		}.setUnlocalizedName("infernium_sword").setRegistryName("infernium_sword").setCreativeTab(CreativeTabs.TOOLS));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("hydrexium:epeeslavicnium", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("hydrexium:infernium_sword", "inventory"));
 	}
 }

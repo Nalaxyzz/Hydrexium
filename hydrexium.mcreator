@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 3,
-    "GUI": 5
+    "GUI": 5,
+    "ENTITY": 3
   },
   "mod_elements": [
     {
@@ -1381,12 +1381,113 @@
       },
       "registry_name": "souris",
       "path": "~/mob"
+    },
+    {
+      "name": "InferniumSword",
+      "type": "tool",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infernium_sword",
+      "path": "~/item"
+    },
+    {
+      "name": "Inferniumpickaxe",
+      "type": "tool",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumpickaxe",
+      "path": "~/item"
+    },
+    {
+      "name": "Inferniumaxe",
+      "type": "tool",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumaxe",
+      "path": "~/item"
+    },
+    {
+      "name": "InferniumShovel",
+      "type": "tool",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "infernium_shovel",
+      "path": "~/item"
+    },
+    {
+      "name": "Inferniumhoe",
+      "type": "tool",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumhoe",
+      "path": "~/item"
+    },
+    {
+      "name": "Inferniumtool1",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumtool_1",
+      "path": "~/craft"
+    },
+    {
+      "name": "Inferniumtool2",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumtool_2",
+      "path": "~/craft"
+    },
+    {
+      "name": "Inferniumtool3",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumtool_3",
+      "path": "~/craft"
+    },
+    {
+      "name": "Inferniumtool4",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumtool_4",
+      "path": "~/craft"
+    },
+    {
+      "name": "Inferniumtool5",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inferniumtool_5",
+      "path": "~/craft"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.inferniumpickaxe.name": "Inferniumpickaxe",
       "item.bluteniumingot.name": "Blutenium ingot",
       "tile.compressor.name": "Compressor",
       "tile.inferniumore.name": "Infernium ore",
@@ -1400,6 +1501,7 @@
       "subtitles.urssisback": "",
       "item.oxoniumingot.name": "Oxonium ingot",
       "item.slavicniumingot.name": "Slavicnium ingot",
+      "item.inferniumhoe.name": "Inferniumhoe",
       "item.mercury_armorhelmet.name": "Mercury Helmet",
       "item.epeeslavicnium.name": "Epee en slavicnium",
       "item.epeehydrexium.name": "Epee en hydrexium",
@@ -1418,7 +1520,9 @@
       "item.piochehydrexium.name": "Piochehydrexium",
       "item.infinityingot.name": "Infinity ingot",
       "item.inferniumboots.name": "Bottes en Infernium",
+      "item.infernium_shovel.name": "Infernium Shovel",
       "item.mercury_armorboots.name": "Mercury Boots",
+      "item.inferniumaxe.name": "Inferniumaxe",
       "item.sticknoir.name": "Black Stick",
       "item.mercury_armorlegs.name": "Mercury Leggings",
       "item.hydrexiumhoe.name": "Hydrexiumhoe",
@@ -1435,6 +1539,7 @@
       "item.inferniumbody.name": "Plastron de Infernium",
       "tile.inferniumblock.name": "Infernium block",
       "item.hydrexiumbody.name": "Plastron en Hydrexium",
+      "item.infernium_sword.name": "Infernium Sword",
       "tile.slavicniumblock.name": "Slavicniumblock",
       "item.mercuryingot.name": "Mercury ingot",
       "tile.upgrade_stationmk_2.name": "Upgrade Station mk2",
@@ -1499,7 +1604,7 @@
   "workspaceSettings": {
     "modid": "hydrexium",
     "modName": "Hydrexium",
-    "version": "Version 1.2.1",
+    "version": "Version 1.2.2",
     "author": "Nalaxyzz",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

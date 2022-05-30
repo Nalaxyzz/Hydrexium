@@ -45,7 +45,7 @@ import java.util.function.Supplier;
 @Mod(modid = HydrexiumMod.MODID, version = HydrexiumMod.VERSION)
 public class HydrexiumMod {
 	public static final String MODID = "hydrexium";
-	public static final String VERSION = "Version 1.2.1";
+	public static final String VERSION = "Version 1.2.2";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("hydrexium:a");
 	@SidedProxy(clientSide = "net.mcreator.hydrexium.ClientProxyHydrexiumMod", serverSide = "net.mcreator.hydrexium.ServerProxyHydrexiumMod")
 	public static IProxyHydrexiumMod proxy;

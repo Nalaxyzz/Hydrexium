@@ -1,0 +1,30 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:inferniumingot"
+    },
+    "1": {
+      "item": "hydrexium:inferniumingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "hydrexium:inferniumingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "hydrexium:inferniumaxe",
+    "count": 1
+  }
+}

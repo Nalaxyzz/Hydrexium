@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "8",
+    "texture": "inferniumsword",
     "customModelName": "Normal",
-    "name": "Epee en slavicnium",
+    "name": "Infernium Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:Hydrexiumtab"
+      "value": "TOOLS"
     },
     "toolType": "Sword",
     "harvestLevel": 2,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
-    "enchantability": 4,
-    "damageVsEntity": 6.5,
-    "usageCount": 200,
+    "enchantability": 2,
+    "damageVsEntity": 7.0,
+    "usageCount": 300,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:Slavicniumingot"
+        "value": "CUSTOM:Inferniumingot"
       }
     ],
     "immuneToFire": false,
