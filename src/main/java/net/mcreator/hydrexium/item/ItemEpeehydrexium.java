@@ -29,12 +29,12 @@ public class ItemEpeehydrexium extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:epeehydrexium")
 	public static final Item block = null;
 	public ItemEpeehydrexium(ElementsHydrexiumMod instance) {
-		super(instance, 49);
+		super(instance, 50);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("EPEEHYDREXIUM", 4, 1500, 6.5f, 6f, 7)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("EPEEHYDREXIUM", 4, 1500, 6.5f, 6.5f, 7)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);

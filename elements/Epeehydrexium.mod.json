@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "hydrexium_sword",
     "customModelName": "Normal",
-    "name": "Epee en hydrexium",
+    "name": "Epee en hydrexium avencé",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Hydrexiumtab"
@@ -15,7 +15,7 @@
     "efficiency": 6.5,
     "attackSpeed": 1.5,
     "enchantability": 7,
-    "damageVsEntity": 10.0,
+    "damageVsEntity": 10.5,
     "usageCount": 1500,
     "blocksAffected": [],
     "hasGlow": false,
