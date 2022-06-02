@@ -36,6 +36,7 @@ import net.minecraft.block.Block;
 
 import net.mcreator.hydrexium.gui.GuiUpgradeStationguimk1;
 import net.mcreator.hydrexium.gui.GuiUpgradeStationgui;
+import net.mcreator.hydrexium.gui.GuiCompressormk2craft;
 import net.mcreator.hydrexium.gui.GuiCompressorgui;
 
 import java.util.function.Supplier;
@@ -132,6 +133,8 @@ public class ElementsHydrexiumMod implements IFuelHandler, IWorldGenerator {
 				return new GuiUpgradeStationgui.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiUpgradeStationguimk1.GUIID)
 				return new GuiUpgradeStationguimk1.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiCompressormk2craft.GUIID)
+				return new GuiCompressormk2craft.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -143,6 +146,8 @@ public class ElementsHydrexiumMod implements IFuelHandler, IWorldGenerator {
 				return new GuiUpgradeStationgui.GuiWindow(world, x, y, z, player);
 			if (id == GuiUpgradeStationguimk1.GUIID)
 				return new GuiUpgradeStationguimk1.GuiWindow(world, x, y, z, player);
+			if (id == GuiCompressormk2craft.GUIID)
+				return new GuiCompressormk2craft.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}
