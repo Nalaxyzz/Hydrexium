@@ -1,0 +1,50 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "hydrexiumarmor3d_head",
+    "enableBody": true,
+    "textureBody": "hydrexiumarmor3d_body",
+    "enableLeggings": true,
+    "textureLeggings": "hydrexiumarmor3d_leggings",
+    "enableBoots": true,
+    "textureBoots": "hydrexiumarmor3d_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "netherite",
+    "helmetName": "Hydrexiumarmor3d Helmet",
+    "bodyName": "Hydrexiumarmor3d Chestplate",
+    "leggingsName": "Hydrexiumarmor3d Leggings",
+    "bootsName": "Hydrexiumarmor3d Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelsteve",
+    "helmetModelTexture": "steve.png",
+    "bodyModelName": "Modelsteve",
+    "bodyModelTexture": "2.png",
+    "leggingsModelName": "Modelsteve",
+    "leggingsModelTexture": "3.png",
+    "bootsModelName": "Modelsteve",
+    "bootsModelTexture": "3.png",
+    "maxDamage": 15,
+    "damageValueHelmet": 2,
+    "damageValueBody": 5,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Hydrexiumplaque"
+      }
+    ]
+  }
+}

@@ -1,7 +1,8 @@
 {
   "id_map": {
+    "GUI": 5,
     "ENTITY": 3,
-    "GUI": 5
+    "DIMENSION": 1
   },
   "mod_elements": [
     {
@@ -1501,6 +1502,32 @@
       "ids": {},
       "registry_name": "cordecraft",
       "path": "~/craft"
+    },
+    {
+      "name": "Hydrexiumarmor3dArmor",
+      "type": "armor",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hydrexiumarmor_3d_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/item"
+    },
+    {
+      "name": "Compressormk2",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressormk_2",
+      "path": "~/Mechanic"
     }
   ],
   "variable_elements": [],
@@ -1510,9 +1537,10 @@
       "item.inferniumpickaxe.name": "Infernium pickaxe",
       "item.bluteniumingot.name": "Blutenium ingot",
       "tile.compressor.name": "Compressor",
-      "tile.inferniumore.name": "Infernium ore",
       "tile.voidiumblock.name": "Voidium block",
+      "tile.inferniumore.name": "Infernium ore",
       "item.hoeslavicnium.name": "Slavicnium Hoe",
+      "tile.compressormk_2.name": "Compressor mk2",
       "item.hammerhydrexium.name": "Hammer hydrexium",
       "item.hammerinfernium.name": "Hammer infernium",
       "item.hydrexiumplaque.name": "Hydrexium plate",
@@ -1531,6 +1559,7 @@
       "tile.hydrexiumore_2.name": "Hydrexium ore ",
       "tile.mercuryblock.name": "Mercury block",
       "item.hydrexiumhelmet.name": "Hydrexium Helmet",
+      "item.hydrexiumarmor_3d_armorboots.name": "Hydrexiumarmor3d Boots",
       "tile.mercuryore.name": "Mercury ore",
       "entity.souris.name": "Mouse",
       "item.hydrexiumboots.name": "Hydrexium Boots",
@@ -1547,9 +1576,11 @@
       "item.hydrexiumhoe.name": "Hydrexium Hoe",
       "item.hammerinfinity.name": "Hammer infinity",
       "item.voidiumingot.name": "Voidium ingot",
+      "item.hydrexiumarmor_3d_armorhelmet.name": "Hydrexiumarmor3d Helmet",
       "item.inferniumingot.name": "Infernium ingot",
       "tile.oxoniumblock.name": "Oxonium block",
       "item.hydrexiumarmoradvancedboots.name": "Advanced Hydrexium Boots",
+      "item.hydrexiumarmor_3d_armorlegs.name": "Hydrexiumarmor3d Leggings",
       "item.hydrexiumlegs.name": "Hydrexium Leggings",
       "item.hydrexiumshovel.name": "Hydrexium shovel",
       "item.hydrexiumarmoradvancedhelmet.name": "Advanced Hydrexium Helmet",
@@ -1559,6 +1590,7 @@
       "tile.inferniumblock.name": "Infernium block",
       "item.hydrexiumbody.name": "Hydrexium Chestplate",
       "item.infernium_sword.name": "Infernium Sword",
+      "item.hydrexiumarmor_3d_armorbody.name": "Hydrexiumarmor3d Chestplate",
       "tile.slavicniumblock.name": "Slavicnium block",
       "item.mercuryingot.name": "Mercury ingot",
       "tile.upgrade_stationmk_2.name": "Upgrade Station mk2",
@@ -1590,6 +1622,7 @@
       "tile.voidiumblock.name": "Bloc de Voïdium",
       "tile.inferniumore.name": "Minerai d\u0027infernium",
       "item.hoeslavicnium.name": "Hoe en slavicnium",
+      "tile.compressormk_2.name": "Compresseur mk2",
       "item.hammerhydrexium.name": "Hammer en hydrexium",
       "item.hammerinfernium.name": "Hammer en infernium",
       "item.hydrexiumplaque.name": "Hydrexium plaque",
@@ -1608,6 +1641,7 @@
       "tile.hydrexiumore_2.name": "Minerai d\u0027hydrexium ",
       "tile.mercuryblock.name": "Bloc de Mercury",
       "item.hydrexiumhelmet.name": "Casque en Hydrexium",
+      "item.hydrexiumarmor_3d_armorboots.name": "Hydrexiumarmor3d Boots",
       "tile.mercuryore.name": "Minerai de Mercury",
       "entity.souris.name": "Souris",
       "item.hydrexiumboots.name": "Bottes en Hydrexium",
@@ -1624,9 +1658,11 @@
       "item.hydrexiumhoe.name": "Houe en Hydrexium ",
       "item.hammerinfinity.name": "Hammer en infinity",
       "item.voidiumingot.name": "L\u0027ingot de Voïdium",
+      "item.hydrexiumarmor_3d_armorhelmet.name": "Hydrexiumarmor3d Helmet",
       "item.inferniumingot.name": "L\u0027ingot d\u0027infernium",
       "tile.oxoniumblock.name": "Bloc d\u0027oxonium",
       "item.hydrexiumarmoradvancedboots.name": "Bottes en Hydrexium avancé",
+      "item.hydrexiumarmor_3d_armorlegs.name": "Hydrexiumarmor3d Leggings",
       "item.hydrexiumlegs.name": "Jambières en hydrexium",
       "item.hydrexiumshovel.name": "Hydrexium shovel",
       "item.hydrexiumarmoradvancedhelmet.name": "Casque en Hydrexium avencé",
@@ -1636,6 +1672,7 @@
       "tile.inferniumblock.name": "Bloc d\u0027infernium",
       "item.hydrexiumbody.name": "Plastron en Hydrexium",
       "item.infernium_sword.name": "Épée en infernium",
+      "item.hydrexiumarmor_3d_armorbody.name": "Hydrexiumarmor3d Chestplate",
       "tile.slavicniumblock.name": "Bloc de Slavicnium",
       "item.mercuryingot.name": "L\u0027ingot de Mercury ",
       "tile.upgrade_stationmk_2.name": "Station de mise à niveau mk2",
@@ -1701,7 +1738,7 @@
   "workspaceSettings": {
     "modid": "hydrexium",
     "modName": "Hydrexium",
-    "version": "Version 1.2.4",
+    "version": "Version 1.2.5",
     "author": "Nalaxyzz",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
