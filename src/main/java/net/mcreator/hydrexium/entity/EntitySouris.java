@@ -35,20 +35,20 @@ public class EntitySouris extends ElementsHydrexiumMod.ModElement {
 	public static final int ENTITYID = 2;
 	public static final int ENTITYID_RANGED = 3;
 	public EntitySouris(ElementsHydrexiumMod instance) {
-		super(instance, 58);
+		super(instance, 59);
 	}
 
 	@Override
 	public void initElements() {
 		elements.entities.add(() -> EntityEntryBuilder.create().entity(EntityCustom.class).id(new ResourceLocation("hydrexium", "souris"), ENTITYID)
-				.name("souris").tracker(64, 3, true).egg(-10066330, -39169).build());
+				.name("souris").tracker(64, 3, true).egg(-10066330, -6724096).build());
 	}
 
 	@Override
 	public void init(FMLInitializationEvent event) {
 		Biome[] spawnBiomes = {Biome.REGISTRY.getObject(new ResourceLocation("plains")), Biome.REGISTRY.getObject(new ResourceLocation("forest")),
 				Biome.REGISTRY.getObject(new ResourceLocation("taiga")),};
-		EntityRegistry.addSpawn(EntityCustom.class, 10, 4, 4, EnumCreatureType.MONSTER, spawnBiomes);
+		EntityRegistry.addSpawn(EntityCustom.class, 10, 4, 4, EnumCreatureType.CREATURE, spawnBiomes);
 	}
 
 	@SideOnly(Side.CLIENT)
@@ -57,7 +57,7 @@ public class EntitySouris extends ElementsHydrexiumMod.ModElement {
 		RenderingRegistry.registerEntityRenderingHandler(EntityCustom.class, renderManager -> {
 			RenderLiving customRender = new RenderLiving(renderManager, new ModelSilverfish(), 0.5f) {
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("hydrexium:textures/souris.png");
+					return new ResourceLocation("hydrexium:textures/silverfish.png");
 				}
 			};
 			customRender.addLayer(new net.minecraft.client.renderer.entity.layers.LayerHeldItem(customRender));
@@ -102,7 +102,7 @@ public class EntitySouris extends ElementsHydrexiumMod.ModElement {
 
 		@Override
 		public net.minecraft.util.SoundEvent getHurtSound(DamageSource ds) {
-			return (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("entity.generic.hurt"));
+			return (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation(""));
 		}
 
 		@Override

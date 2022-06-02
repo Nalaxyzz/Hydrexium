@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "hydrexiumplaque",
+    "texture": "hydrexium_plate",
     "customModelName": "Normal",
     "name": "Hydrexium plaque",
     "rarity": "COMMON",

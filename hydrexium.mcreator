@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "GUI": 5,
-    "ENTITY": 3
+    "ENTITY": 3,
+    "GUI": 5
   },
   "mod_elements": [
     {

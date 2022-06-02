@@ -5,7 +5,7 @@
     "mobName": "Souris",
     "mobLabel": "",
     "mobModelName": "Silverfish",
-    "mobModelTexture": "souris.png",
+    "mobModelTexture": "silverfish.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.4,
     "modelHeight": 0.3,
@@ -17,7 +17,7 @@
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -39169,
+      "value": -6724096,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -83,7 +83,7 @@
       "value": ""
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": ""
     },
     "deathSound": {
       "value": "entity.generic.death"
@@ -112,7 +112,7 @@
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 10,
-    "mobSpawningType": "monster",
+    "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [

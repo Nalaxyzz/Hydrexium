@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "hammer_2",
+    "texture": "inferniumhammer",
     "customModelName": "Normal",
     "name": "Hammer infernium",
     "specialInfo": [],
