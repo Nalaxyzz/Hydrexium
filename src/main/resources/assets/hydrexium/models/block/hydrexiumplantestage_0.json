@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "hydrexium:blocks/hydrexium_stage_0",
+    "particle": "hydrexium:blocks/hydrexium_stage_0"
+  }
+}

@@ -24,7 +24,7 @@ public class ItemPiochehydrexium extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:piochehydrexium")
 	public static final Item block = null;
 	public ItemPiochehydrexium(ElementsHydrexiumMod instance) {
-		super(instance, 46);
+		super(instance, 47);
 	}
 
 	@Override
