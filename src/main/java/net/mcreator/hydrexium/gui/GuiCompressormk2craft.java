@@ -313,7 +313,6 @@ public class GuiCompressormk2craft extends ElementsHydrexiumMod.ModElement {
 			this.guiTop = (this.height - 166) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();
-			this.buttonList.add(new GuiButton(0, this.guiLeft + 112, this.guiTop + 57, 45, 20, "fuse"));
 		}
 
 		@Override

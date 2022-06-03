@@ -33,7 +33,9 @@
       }
     ],
     "name": "Compressor mk2",
-    "specialInfo": [],
+    "specialInfo": [
+      "Pour la v3 / for v3"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -101,6 +103,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "Craftmk24x4"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

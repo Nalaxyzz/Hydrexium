@@ -27,6 +27,7 @@ import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.inventory.Container;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
@@ -34,10 +35,16 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.Block;
 
+import net.mcreator.hydrexium.procedure.ProcedureCraftmk24x4;
 import net.mcreator.hydrexium.gui.GuiCompressormk2craft;
 import net.mcreator.hydrexium.creativetab.TabHydrexiumtab;
 import net.mcreator.hydrexium.HydrexiumMod;
 import net.mcreator.hydrexium.ElementsHydrexiumMod;
+
+import java.util.Random;
+import java.util.Map;
+import java.util.List;
+import java.util.HashMap;
 
 @ElementsHydrexiumMod.ModElement.Tag
 public class BlockCompressormk2 extends ElementsHydrexiumMod.ModElement {
@@ -75,6 +82,12 @@ public class BlockCompressormk2 extends ElementsHydrexiumMod.ModElement {
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(TabHydrexiumtab.tab);
+		}
+
+		@Override
+		public void addInformation(ItemStack itemstack, World world, List<String> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add("Pour la v3 / for v3");
 		}
 
 		@Override
@@ -120,6 +133,28 @@ public class BlockCompressormk2 extends ElementsHydrexiumMod.ModElement {
 				return Container.calcRedstoneFromInventory((TileEntityCustom) tileentity);
 			else
 				return 0;
+		}
+
+		@Override
+		public void onBlockAdded(World world, BlockPos pos, IBlockState state) {
+			super.onBlockAdded(world, pos, state);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
+		}
+
+		@Override
+		public void updateTick(World world, BlockPos pos, IBlockState state, Random random) {
+			super.updateTick(world, pos, state, random);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				ProcedureCraftmk24x4.executeProcedure($_dependencies);
+			}
+			world.scheduleUpdate(new BlockPos(x, y, z), this, this.tickRate(world));
 		}
 
 		@Override
