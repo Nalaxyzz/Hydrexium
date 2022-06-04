@@ -76,7 +76,7 @@ public class BlockHydrexiumplantestage2 extends ElementsHydrexiumMod.ModElement 
 
 		@Override
 		public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
-			return new AxisAlignedBB(0, 0, 0, 0, 0, 0);
+			return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(0, 0, 0, 1, -0.1, 1));
 		}
 
 		@Override

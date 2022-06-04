@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "ENTITY": 3,
     "GUI": 6,
-    "DIMENSION": 1
+    "DIMENSION": 1,
+    "ENTITY": 3
   },
   "mod_elements": [
     {
@@ -1729,6 +1729,19 @@
             "type": "world"
           }
         ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Randomlootgrainehydrexium",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "randomlootgrainehydrexium",
+      "metadata": {
+        "dependencies": []
       },
       "path": "~/procedure"
     }
