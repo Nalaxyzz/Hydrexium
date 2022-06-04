@@ -27,7 +27,7 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 1.0,
-        "My": -0.1,
+        "My": 3.0,
         "Mz": 1.0,
         "subtract": false
       }
@@ -45,7 +45,7 @@
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -70,7 +70,7 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "soundOnStep": {
       "value": "PLANT"
     },
@@ -101,6 +101,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "Prodecuredropgraine"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

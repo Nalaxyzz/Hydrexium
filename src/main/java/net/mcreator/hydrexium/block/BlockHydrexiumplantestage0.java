@@ -70,13 +70,24 @@ public class BlockHydrexiumplantestage0 extends ElementsHydrexiumMod.ModElement 
 		}
 
 		@Override
+		@javax.annotation.Nullable
+		public AxisAlignedBB getCollisionBoundingBox(IBlockState blockState, IBlockAccess worldIn, BlockPos pos) {
+			return NULL_AABB;
+		}
+
+		@Override
+		public boolean isPassable(IBlockAccess worldIn, BlockPos pos) {
+			return true;
+		}
+
+		@Override
 		public boolean isFullCube(IBlockState state) {
 			return false;
 		}
 
 		@Override
 		public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
-			return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(0, 0, 0, 1, -0.1, 1));
+			return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(0, 0, 0, 1, 0.1, 1));
 		}
 
 		@Override

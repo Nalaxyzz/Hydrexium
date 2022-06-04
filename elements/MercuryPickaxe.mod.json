@@ -3,25 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "i",
+    "texture": "mercurypickaxe",
     "customModelName": "Normal",
-    "name": "Pioche en hydrexium",
+    "name": "Mercury Pickaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Hydrexiumtab"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 4,
-    "efficiency": 7.0,
+    "harvestLevel": 3,
+    "efficiency": 6.5,
     "attackSpeed": 1.0,
-    "enchantability": 7,
+    "enchantability": 14,
     "damageVsEntity": 4.0,
-    "usageCount": 1000,
+    "usageCount": 500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:Hydrexiumplaque"
+        "value": "CUSTOM:Mercuryingot"
       }
     ],
     "immuneToFire": false,

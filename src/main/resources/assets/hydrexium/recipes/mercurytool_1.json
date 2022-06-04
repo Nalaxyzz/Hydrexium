@@ -1,0 +1,24 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "1": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "hydrexium:mercury_sword",
+    "count": 1
+  }
+}

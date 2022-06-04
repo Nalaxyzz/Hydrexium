@@ -29,7 +29,7 @@ public class ItemInferniumShovel extends ElementsHydrexiumMod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("INFERNIUM_SHOVEL", 3, 300, 7f, 0f, 14)) {
+		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("INFERNIUM_SHOVEL", 3, 300, 6f, 0f, 14)) {
 			{
 				this.attackSpeed = -3f;
 			}

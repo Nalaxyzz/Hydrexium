@@ -14,13 +14,19 @@ import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
+import net.mcreator.hydrexium.procedure.ProcedureProdecuredropgraine;
 import net.mcreator.hydrexium.ElementsHydrexiumMod;
+
+import java.util.Random;
+import java.util.Map;
+import java.util.HashMap;
 
 @ElementsHydrexiumMod.ModElement.Tag
 public class BlockHydrexiumstage3 extends ElementsHydrexiumMod.ModElement {
@@ -61,13 +67,24 @@ public class BlockHydrexiumstage3 extends ElementsHydrexiumMod.ModElement {
 		}
 
 		@Override
+		@javax.annotation.Nullable
+		public AxisAlignedBB getCollisionBoundingBox(IBlockState blockState, IBlockAccess worldIn, BlockPos pos) {
+			return NULL_AABB;
+		}
+
+		@Override
+		public boolean isPassable(IBlockAccess worldIn, BlockPos pos) {
+			return true;
+		}
+
+		@Override
 		public boolean isFullCube(IBlockState state) {
 			return false;
 		}
 
 		@Override
 		public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
-			return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(0, 0, 0, 1, -0.1, 1));
+			return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(0, 0, 0, 1, 3, 1));
 		}
 
 		@Override
@@ -78,6 +95,28 @@ public class BlockHydrexiumstage3 extends ElementsHydrexiumMod.ModElement {
 		@Override
 		public boolean isOpaqueCube(IBlockState state) {
 			return false;
+		}
+
+		@Override
+		public int quantityDropped(Random random) {
+			return 0;
+		}
+
+		@Override
+		public boolean removedByPlayer(IBlockState state, World world, BlockPos pos, EntityPlayer entity, boolean willHarvest) {
+			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureProdecuredropgraine.executeProcedure($_dependencies);
+			}
+			return retval;
 		}
 	}
 }

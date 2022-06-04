@@ -20,30 +20,30 @@ import java.util.Set;
 import java.util.HashMap;
 
 @ElementsHydrexiumMod.ModElement.Tag
-public class ItemPiochehydrexium extends ElementsHydrexiumMod.ModElement {
-	@GameRegistry.ObjectHolder("hydrexium:piochehydrexium")
+public class ItemMercuryPickaxe extends ElementsHydrexiumMod.ModElement {
+	@GameRegistry.ObjectHolder("hydrexium:mercury_pickaxe")
 	public static final Item block = null;
-	public ItemPiochehydrexium(ElementsHydrexiumMod instance) {
-		super(instance, 47);
+	public ItemMercuryPickaxe(ElementsHydrexiumMod instance) {
+		super(instance, 150);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("PIOCHEHYDREXIUM", 4, 1000, 7f, 0f, 7)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("MERCURY_PICKAXE", 3, 500, 6.5f, 0f, 14)) {
 			{
 				this.attackSpeed = -3f;
 			}
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("pickaxe", 4);
+				ret.put("pickaxe", 3);
 				return ret.keySet();
 			}
-		}.setUnlocalizedName("piochehydrexium").setRegistryName("piochehydrexium").setCreativeTab(TabHydrexiumtab.tab));
+		}.setUnlocalizedName("mercury_pickaxe").setRegistryName("mercury_pickaxe").setCreativeTab(TabHydrexiumtab.tab));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("hydrexium:piochehydrexium", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("hydrexium:mercury_pickaxe", "inventory"));
 	}
 }

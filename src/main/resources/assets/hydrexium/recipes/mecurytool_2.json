@@ -1,0 +1,30 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "1": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "2": {
+      "item": "hydrexium:mercuryingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "hydrexium:mercury_pickaxe",
+    "count": 1
+  }
+}

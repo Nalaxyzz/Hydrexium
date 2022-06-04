@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Hydrexiumingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Hydrexiumingot"
+      },
+      {
+        "value": "Items.WHEAT_SEEDS"
+      },
+      {
+        "value": "CUSTOM:Hydrexiumingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Hydrexiumingot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HydrexiumGraine"
+    },
+    "name": "graine_hydrexiumcraft",
+    "namespace": "mod"
+  }
+}

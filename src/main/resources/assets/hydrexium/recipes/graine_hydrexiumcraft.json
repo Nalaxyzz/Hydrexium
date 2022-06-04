@@ -1,0 +1,30 @@
+{
+  "group": "hydrexium",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "hydrexium:hydrexiumingot"
+    },
+    "3": {
+      "item": "hydrexium:hydrexiumingot"
+    },
+    "4": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "5": {
+      "item": "hydrexium:hydrexiumingot"
+    },
+    "7": {
+      "item": "hydrexium:hydrexiumingot"
+    }
+  },
+  "result": {
+    "item": "hydrexium:hydrexium_graine",
+    "count": 1
+  }
+}
