@@ -1,8 +1,8 @@
 {
   "id_map": {
     "ENTITY": 3,
-    "DIMENSION": 1,
-    "GUI": 6
+    "GUI": 6,
+    "DIMENSION": 1
   },
   "mod_elements": [
     {
