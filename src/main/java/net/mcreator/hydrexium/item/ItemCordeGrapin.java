@@ -20,7 +20,7 @@ public class ItemCordeGrapin extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:corde_grapin")
 	public static final Item block = null;
 	public ItemCordeGrapin(ElementsHydrexiumMod instance) {
-		super(instance, 58);
+		super(instance, 63);
 	}
 
 	@Override

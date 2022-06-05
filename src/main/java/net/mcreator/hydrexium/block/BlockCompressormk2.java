@@ -51,7 +51,7 @@ public class BlockCompressormk2 extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:compressormk_2")
 	public static final Block block = null;
 	public BlockCompressormk2(ElementsHydrexiumMod instance) {
-		super(instance, 137);
+		super(instance, 21);
 	}
 
 	@Override

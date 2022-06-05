@@ -11,7 +11,7 @@ import java.util.Map;
 @ElementsHydrexiumMod.ModElement.Tag
 public class ProcedureStage1grainehydrexiumtick extends ElementsHydrexiumMod.ModElement {
 	public ProcedureStage1grainehydrexiumtick(ElementsHydrexiumMod instance) {
-		super(instance, 145);
+		super(instance, 149);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -36,7 +36,7 @@ public class BlockHydrexiumplantestage1 extends ElementsHydrexiumMod.ModElement 
 	@GameRegistry.ObjectHolder("hydrexium:hydrexiumplantestage_1")
 	public static final Block block = null;
 	public BlockHydrexiumplantestage1(ElementsHydrexiumMod instance) {
-		super(instance, 140);
+		super(instance, 144);
 	}
 
 	@Override

@@ -13,7 +13,7 @@ import java.util.Map;
 @ElementsHydrexiumMod.ModElement.Tag
 public class ProcedureProdecuredropgraine extends ElementsHydrexiumMod.ModElement {
 	public ProcedureProdecuredropgraine(ElementsHydrexiumMod instance) {
-		super(instance, 148);
+		super(instance, 152);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

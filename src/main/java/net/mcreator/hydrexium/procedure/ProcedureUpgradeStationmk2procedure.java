@@ -18,7 +18,7 @@ import java.util.Map;
 @ElementsHydrexiumMod.ModElement.Tag
 public class ProcedureUpgradeStationmk2procedure extends ElementsHydrexiumMod.ModElement {
 	public ProcedureUpgradeStationmk2procedure(ElementsHydrexiumMod instance) {
-		super(instance, 111);
+		super(instance, 115);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

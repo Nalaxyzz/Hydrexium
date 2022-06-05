@@ -8,9 +8,9 @@
     "name": "Mercury Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Hydrexiumtab"
     },
-    "toolType": "Pickaxe",
+    "toolType": "Axe",
     "harvestLevel": 3,
     "efficiency": 6.5,
     "attackSpeed": 1.0,

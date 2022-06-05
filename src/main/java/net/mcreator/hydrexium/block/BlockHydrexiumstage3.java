@@ -33,7 +33,7 @@ public class BlockHydrexiumstage3 extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:hydrexiumstage_3")
 	public static final Block block = null;
 	public BlockHydrexiumstage3(ElementsHydrexiumMod instance) {
-		super(instance, 142);
+		super(instance, 146);
 	}
 
 	@Override
@@ -84,7 +84,7 @@ public class BlockHydrexiumstage3 extends ElementsHydrexiumMod.ModElement {
 
 		@Override
 		public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
-			return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(0, 0, 0, 1, 3, 1));
+			return new AxisAlignedBB(0, 0, 0, 0, 0, 0).union(new AxisAlignedBB(0, 0, 0, 1, 1, 1));
 		}
 
 		@Override

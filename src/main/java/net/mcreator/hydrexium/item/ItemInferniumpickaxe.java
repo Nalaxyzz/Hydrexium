@@ -24,7 +24,7 @@ public class ItemInferniumpickaxe extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:inferniumpickaxe")
 	public static final Item block = null;
 	public ItemInferniumpickaxe(ElementsHydrexiumMod instance) {
-		super(instance, 52);
+		super(instance, 53);
 	}
 
 	@Override

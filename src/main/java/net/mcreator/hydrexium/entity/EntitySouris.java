@@ -35,7 +35,7 @@ public class EntitySouris extends ElementsHydrexiumMod.ModElement {
 	public static final int ENTITYID = 2;
 	public static final int ENTITYID_RANGED = 3;
 	public EntitySouris(ElementsHydrexiumMod instance) {
-		super(instance, 59);
+		super(instance, 64);
 	}
 
 	@Override

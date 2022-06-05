@@ -15,7 +15,7 @@ import java.util.Map;
 @ElementsHydrexiumMod.ModElement.Tag
 public class ProcedureHydrexiumarmoradvancedEvenementDeTickDuCasque extends ElementsHydrexiumMod.ModElement {
 	public ProcedureHydrexiumarmoradvancedEvenementDeTickDuCasque(ElementsHydrexiumMod instance) {
-		super(instance, 88);
+		super(instance, 92);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

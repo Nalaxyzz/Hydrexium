@@ -38,7 +38,7 @@ public class GuiCompressormk2craft extends ElementsHydrexiumMod.ModElement {
 	public static int GUIID = 6;
 	public static HashMap guistate = new HashMap();
 	public GuiCompressormk2craft(ElementsHydrexiumMod instance) {
-		super(instance, 138);
+		super(instance, 141);
 	}
 
 	@Override

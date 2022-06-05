@@ -24,7 +24,7 @@ public class ItemInferniumShovel extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:infernium_shovel")
 	public static final Item block = null;
 	public ItemInferniumShovel(ElementsHydrexiumMod instance) {
-		super(instance, 54);
+		super(instance, 55);
 	}
 
 	@Override

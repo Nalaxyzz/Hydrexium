@@ -24,7 +24,7 @@ public class ItemMercuryPickaxe extends ElementsHydrexiumMod.ModElement {
 	@GameRegistry.ObjectHolder("hydrexium:mercury_pickaxe")
 	public static final Item block = null;
 	public ItemMercuryPickaxe(ElementsHydrexiumMod instance) {
-		super(instance, 150);
+		super(instance, 58);
 	}
 
 	@Override
