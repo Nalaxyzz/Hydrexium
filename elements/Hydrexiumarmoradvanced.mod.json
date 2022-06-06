@@ -57,10 +57,14 @@
     "damageValueBoots": 7,
     "enchantability": 15,
     "toughness": 4.0,
-    "knockbackResistance": 0.0,
+    "knockbackResistance": 0.1,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Hydrexiumplaque"
+      }
+    ]
   }
 }
